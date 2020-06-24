@@ -25,7 +25,7 @@ F 3 "~" H 18900 3600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L simple:C_US C59
+L Peavey_5150-rescue:C_US-simple C59
 U 1 1 5DCBC9BA
 P 19150 3400
 F 0 "C59" H 19200 3500 50  0000 L CNN
@@ -74,7 +74,7 @@ Wire Wire Line
 	19150 5100 19150 3950
 Connection ~ 19150 3950
 $Comp
-L simple:C_US C37
+L Peavey_5150-rescue:C_US-simple C37
 U 1 1 5DCD948E
 P 20200 4550
 F 0 "C37" H 20250 4650 50  0000 L CNN
@@ -90,7 +90,7 @@ Wire Wire Line
 	20200 3150 19750 3150
 Connection ~ 19150 3150
 $Comp
-L simple:C_US C14
+L Peavey_5150-rescue:C_US-simple C14
 U 1 1 5DCE0EC5
 P 20850 3150
 F 0 "C14" V 21000 3100 50  0000 L CNN
@@ -105,7 +105,7 @@ Wire Wire Line
 Wire Wire Line
 	20200 4400 20200 4050
 $Comp
-L simple:C_US C18
+L Peavey_5150-rescue:C_US-simple C18
 U 1 1 5DCEDC06
 P 20700 4050
 F 0 "C18" V 20850 4000 50  0000 L CNN
@@ -122,7 +122,7 @@ Wire Wire Line
 Wire Wire Line
 	21150 4050 21150 3950
 $Comp
-L simple:R_POT_US_P VR5
+L Peavey_5150-rescue:R_POT_US_P-simple VR5
 U 1 1 5DD2ECB9
 P 21150 3800
 F 0 "VR5" H 21350 3850 50  0000 L CNN
@@ -133,7 +133,7 @@ F 3 "" H 21150 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L simple:R_POT_US_P VR3
+L Peavey_5150-rescue:R_POT_US_P-simple VR3
 U 1 1 5DD31C45
 P 21150 4350
 F 0 "VR3" H 21350 4400 50  0000 L CNN
@@ -144,7 +144,7 @@ F 3 "" H 21150 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L simple:R_POT_US_P VR4
+L Peavey_5150-rescue:R_POT_US_P-simple VR4
 U 1 1 5DD446E1
 P 21150 4850
 F 0 "VR4" H 21350 4900 50  0000 L CNN
@@ -170,7 +170,7 @@ F 3 "~" H 21150 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L simple:R_POT_US_P VR7
+L Peavey_5150-rescue:R_POT_US_P-simple VR7
 U 1 1 5DD719B4
 P 21950 4050
 F 0 "VR7" H 22150 4100 50  0000 L CNN
@@ -202,7 +202,7 @@ Wire Wire Line
 Wire Wire Line
 	23800 3500 23800 3150
 $Comp
-L simple:R_POT_US_P VR12
+L Peavey_5150-rescue:R_POT_US_P-simple VR12
 U 1 1 5E43F8F7
 P 20200 3400
 F 0 "VR12" H 20400 3450 50  0000 L CNN
@@ -237,7 +237,7 @@ Wire Wire Line
 	23950 3150 23800 3150
 Connection ~ 23800 3150
 $Comp
-L simple:MP4462 U1
+L Peavey_5150-rescue:MP4462-simple U1
 U 1 1 5DDD8389
 P 10100 17000
 F 0 "U1" H 9750 17200 50  0000 C CNN
@@ -339,7 +339,7 @@ F 3 "~" H 9000 18100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L simple:C_US C22
+L Peavey_5150-rescue:C_US-simple C22
 U 1 1 5DFB6C26
 P 10350 16750
 F 0 "C22" V 10600 16750 50  0000 C CNN
@@ -417,7 +417,7 @@ Wire Wire Line
 	11050 16750 10950 16750
 Connection ~ 10950 16750
 $Comp
-L simple:C_US C24
+L Peavey_5150-rescue:C_US-simple C24
 U 1 1 5E068E89
 P 10700 18000
 F 0 "C24" H 10800 18050 50  0000 L CNN
@@ -463,7 +463,7 @@ F 3 "~" H 12600 18100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L simple:R_POT_US_P VR11
+L Peavey_5150-rescue:R_POT_US_P-simple VR11
 U 1 1 5E0919F5
 P 12450 17000
 F 0 "VR11" H 12650 17050 50  0000 L CNN
@@ -502,7 +502,7 @@ HEAT+
 Text Label 8350 17250 2    50   ~ 0
 HEAT_IN
 $Comp
-L simple:C_US C32
+L Peavey_5150-rescue:C_US-simple C32
 U 1 1 5E19417A
 P 5900 14300
 F 0 "C32" H 5800 14350 50  0000 R CNN
@@ -583,7 +583,7 @@ Wire Wire Line
 	5900 14800 5900 14450
 Connection ~ 6900 14800
 $Comp
-L simple:Fuse F1
+L Peavey_5150-rescue:Fuse-simple F1
 U 1 1 5E24C16D
 P 5600 13800
 F 0 "F1" H 5600 13900 50  0000 C CNN
@@ -788,7 +788,7 @@ Wire Wire Line
 Connection ~ 10150 15300
 Connection ~ 9250 15300
 $Comp
-L simple:C_US C25
+L Peavey_5150-rescue:C_US-simple C25
 U 1 1 5E4EA809
 P 11550 14550
 F 0 "C25" H 11600 14650 50  0000 L CNN
@@ -837,7 +837,7 @@ ULTRA VOL
 Text Notes 20250 3300 0    50   ~ 0
 Sweep
 $Comp
-L simple:C_US C12
+L Peavey_5150-rescue:C_US-simple C12
 U 1 1 5DF27EB5
 P 8000 14050
 F 0 "C12" H 7900 14100 50  0000 R CNN
@@ -848,7 +848,7 @@ F 3 "" H 8000 14050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L simple:C_US C16
+L Peavey_5150-rescue:C_US-simple C16
 U 1 1 5DF55BD6
 P 8000 14550
 F 0 "C16" H 7900 14600 50  0000 R CNN
@@ -859,7 +859,7 @@ F 3 "" H 8000 14550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L simple:C_US C7
+L Peavey_5150-rescue:C_US-simple C7
 U 1 1 5DF7CC89
 P 6400 14050
 F 0 "C7" H 6300 14100 50  0000 R CNN
@@ -870,7 +870,7 @@ F 3 "" H 6400 14050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L simple:C_US C8
+L Peavey_5150-rescue:C_US-simple C8
 U 1 1 5DF7E95B
 P 6400 14550
 F 0 "C8" H 6300 14600 50  0000 R CNN
@@ -1009,7 +1009,7 @@ Wire Wire Line
 	6700 17750 5250 17750
 Connection ~ 6700 17750
 $Comp
-L simple:Fuse F2
+L Peavey_5150-rescue:Fuse-simple F2
 U 1 1 5E271950
 P 5600 16750
 F 0 "F2" H 5600 16850 50  0000 C CNN
@@ -1034,7 +1034,7 @@ F 4 "VZH152M1VTR-1816" H 8000 18100 50  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L simple:C_US C9
+L Peavey_5150-rescue:C_US-simple C9
 U 1 1 5E30AE4E
 P 7800 18100
 F 0 "C9" H 7700 18150 50  0000 R CNN
@@ -1095,7 +1095,7 @@ $EndComp
 Wire Wire Line
 	12600 17000 12600 17550
 $Comp
-L simple:C_US C31
+L Peavey_5150-rescue:C_US-simple C31
 U 1 1 5E4B8FA3
 P 11600 17000
 F 0 "C31" H 11500 17050 50  0000 R CNN
@@ -1179,7 +1179,7 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    0    0    -1  
 $EndComp
 $Comp
-L simple:C_US C40
+L Peavey_5150-rescue:C_US-simple C40
 U 1 1 5E6C16DF
 P 18050 16050
 F 0 "C40" H 17950 16100 50  0000 R CNN
@@ -1243,7 +1243,7 @@ Wire Wire Line
 Wire Wire Line
 	20200 14400 20600 14400
 $Comp
-L simple:C_US C39
+L Peavey_5150-rescue:C_US-simple C39
 U 1 1 5E8430EC
 P 17550 16050
 F 0 "C39" H 17450 16100 50  0000 R CNN
@@ -1282,7 +1282,7 @@ F 3 "" H 19850 14500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L simple:C_US C41
+L Peavey_5150-rescue:C_US-simple C41
 U 1 1 5E8A41E9
 P 19850 14250
 F 0 "C41" H 19750 14300 50  0000 R CNN
@@ -1637,7 +1637,7 @@ F 3 "~" H 23800 3650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L simple:C_US C53
+L Peavey_5150-rescue:C_US-simple C53
 U 1 1 5E550E1D
 P 25500 3650
 F 0 "C53" V 25650 3550 50  0000 L CNN
@@ -1681,7 +1681,7 @@ Wire Wire Line
 Wire Wire Line
 	25800 4750 25800 4150
 $Comp
-L simple:C_US C65
+L Peavey_5150-rescue:C_US-simple C65
 U 1 1 5E63B669
 P 26200 3650
 F 0 "C65" V 26350 3550 50  0000 L CNN
@@ -1723,7 +1723,7 @@ Wire Wire Line
 Wire Wire Line
 	26450 3650 26350 3650
 $Comp
-L Relays:G5V-2 K3
+L Peavey_5150-rescue:G5V-2-Relays K3
 U 2 1 5E6ED125
 P 26900 3650
 F 0 "K3" H 26650 3750 50  0000 C CNN
@@ -1737,7 +1737,7 @@ Wire Wire Line
 	26550 3650 26450 3650
 Connection ~ 26450 3650
 $Comp
-L Relays:G5V-2 K3
+L Peavey_5150-rescue:G5V-2-Relays K3
 U 1 1 5E72B33C
 P 27350 15100
 F 0 "K3" H 27505 15146 50  0000 L CNN
@@ -1748,7 +1748,7 @@ F 3 "" H 27350 15100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Relays:G5V-2 K3
+L Peavey_5150-rescue:G5V-2-Relays K3
 U 3 1 5E72C136
 P 26900 5800
 F 0 "K3" H 26650 5900 50  0000 C CNN
@@ -1801,7 +1801,7 @@ Wire Wire Line
 Wire Wire Line
 	28350 3550 28250 3550
 $Comp
-L simple:Jack_6.35 J165
+L Peavey_5150-rescue:Jack_6.35-simple J165
 U 1 1 5E89B5A5
 P 28700 3700
 F 0 "J165" H 28350 3900 50  0000 C CNN
@@ -1842,7 +1842,7 @@ Wire Wire Line
 	28150 3850 28150 3750
 Connection ~ 28150 3750
 $Comp
-L simple:Jack_6.35 J166
+L Peavey_5150-rescue:Jack_6.35-simple J166
 U 1 1 5EB126A5
 P 28700 4800
 F 0 "J166" H 28350 5000 50  0000 C CNN
@@ -1920,7 +1920,7 @@ $EndComp
 Wire Wire Line
 	26450 7650 26450 6900
 $Comp
-L simple:C_US C11
+L Peavey_5150-rescue:C_US-simple C11
 U 1 1 5EEADEF4
 P 26200 6350
 F 0 "C11" V 26350 6250 50  0000 L CNN
@@ -1973,7 +1973,7 @@ Wire Wire Line
 Wire Wire Line
 	25700 6350 25300 6350
 $Comp
-L simple:Jack_6.35 J3
+L Peavey_5150-rescue:Jack_6.35-simple J3
 U 1 1 5F35DB25
 P 22750 7050
 F 0 "J3" H 22400 7250 50  0000 C CNN
@@ -2003,7 +2003,7 @@ Wire Wire Line
 Wire Wire Line
 	24400 5850 24000 5850
 $Comp
-L simple:R_POT_US_P VR13
+L Peavey_5150-rescue:R_POT_US_P-simple VR13
 U 1 1 5F2CA2A7
 P 24000 7200
 F 0 "VR13" H 24200 7250 50  0000 L CNN
@@ -2019,7 +2019,7 @@ Connection ~ 25000 5850
 Wire Wire Line
 	24700 5850 25000 5850
 $Comp
-L simple:C_US C49
+L Peavey_5150-rescue:C_US-simple C49
 U 1 1 5F23CF14
 P 24550 5850
 F 0 "C49" V 24700 5750 50  0000 L CNN
@@ -2085,7 +2085,7 @@ F 3 "~" H 25100 7100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L simple:C_US C158
+L Peavey_5150-rescue:C_US-simple C158
 U 1 1 5F049772
 P 24900 7100
 F 0 "C158" H 24850 7200 50  0000 R CNN
@@ -2517,7 +2517,7 @@ SWIM
 Wire Wire Line
 	19350 14800 19450 14800
 $Comp
-L simple:Jack_6.35 J5
+L Peavey_5150-rescue:Jack_6.35-simple J5
 U 1 1 5EB10010
 P 22450 17750
 F 0 "J5" H 22100 17950 50  0000 C CNN
@@ -2865,7 +2865,7 @@ Wire Wire Line
 Wire Wire Line
 	15450 17550 15450 17450
 $Comp
-L simple:C_US C36
+L Peavey_5150-rescue:C_US-simple C36
 U 1 1 5EF50F2E
 P 15450 17800
 F 0 "C36" H 15350 17850 50  0000 R CNN
@@ -2892,7 +2892,7 @@ $EndComp
 Wire Wire Line
 	15450 18050 15450 17950
 $Comp
-L simple:C_US C35
+L Peavey_5150-rescue:C_US-simple C35
 U 1 1 5F0B9F5F
 P 14650 17800
 F 0 "C35" H 14550 17850 50  0000 R CNN
@@ -3184,7 +3184,7 @@ $EndComp
 Wire Wire Line
 	27300 18650 27300 18550
 $Comp
-L simple:C_US C42
+L Peavey_5150-rescue:C_US-simple C42
 U 1 1 611A34EA
 P 23950 18250
 F 0 "C42" H 23850 18300 50  0000 R CNN
@@ -3195,7 +3195,7 @@ F 3 "" H 23950 18250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L simple:C_US C43
+L Peavey_5150-rescue:C_US-simple C43
 U 1 1 612329AF
 P 27150 18200
 F 0 "C43" H 27050 18250 50  0000 R CNN
@@ -3206,7 +3206,7 @@ F 3 "" H 27150 18200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L simple:C_US C45
+L Peavey_5150-rescue:C_US-simple C45
 U 1 1 613C264D
 P 29200 18250
 F 0 "C45" H 29100 18300 50  0000 R CNN
@@ -3693,7 +3693,7 @@ Connection ~ 5250 3350
 Wire Wire Line
 	5250 3700 5250 3350
 $Comp
-L simple:R_POT_US_P VR2
+L Peavey_5150-rescue:R_POT_US_P-simple VR2
 U 1 1 627058BD
 P 5250 3850
 F 0 "VR2" H 5450 3900 50  0000 L CNN
@@ -3728,7 +3728,7 @@ F 3 "~" H 6100 3600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L simple:C_US C19
+L Peavey_5150-rescue:C_US-simple C19
 U 1 1 62433C89
 P 5700 3600
 F 0 "C19" H 5750 3700 50  0000 L CNN
@@ -3746,7 +3746,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 2950 5700 2800
 $Comp
-L simple:C_US C17
+L Peavey_5150-rescue:C_US-simple C17
 U 1 1 621729EC
 P 5700 3100
 F 0 "C17" H 5750 3200 50  0000 L CNN
@@ -3776,7 +3776,7 @@ Connection ~ 7550 4000
 Wire Wire Line
 	7650 4000 7550 4000
 $Comp
-L Relays:G5V-2 K2
+L Peavey_5150-rescue:G5V-2-Relays K2
 U 2 1 61BF8E8B
 P 7900 4100
 F 0 "K2" H 7650 4250 50  0000 C CNN
@@ -3811,7 +3811,7 @@ Connection ~ 7050 3600
 Wire Wire Line
 	7150 3600 7050 3600
 $Comp
-L simple:C_US C27
+L Peavey_5150-rescue:C_US-simple C27
 U 1 1 61858F30
 P 7300 3600
 F 0 "C27" V 7450 3600 50  0000 C CNN
@@ -3822,7 +3822,7 @@ F 3 "" H 7300 3600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L simple:R_POT_US_P VR1
+L Peavey_5150-rescue:R_POT_US_P-simple VR1
 U 1 1 618561AC
 P 7050 4000
 F 0 "VR1" H 7250 4050 50  0000 L CNN
@@ -3867,7 +3867,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 1500 7650 1500
 $Comp
-L simple:C_US C13
+L Peavey_5150-rescue:C_US-simple C13
 U 1 1 60F8EB3C
 P 7500 1500
 F 0 "C13" V 7650 1500 50  0000 C CNN
@@ -3891,7 +3891,7 @@ $EndComp
 Wire Wire Line
 	7050 2100 7850 2100
 $Comp
-L simple:C_US C10
+L Peavey_5150-rescue:C_US-simple C10
 U 1 1 60EB3129
 P 7850 2350
 F 0 "C10" H 7750 2400 50  0000 R CNN
@@ -3928,7 +3928,7 @@ $EndComp
 Wire Wire Line
 	5950 2500 5850 2500
 $Comp
-L simple:C_US C63
+L Peavey_5150-rescue:C_US-simple C63
 U 1 1 60B58676
 P 5700 2500
 F 0 "C63" V 5850 2500 50  0000 C CNN
@@ -3985,7 +3985,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 2100 6550 2100
 $Comp
-L simple:C_US C51
+L Peavey_5150-rescue:C_US-simple C51
 U 1 1 606696A9
 P 6800 1700
 F 0 "C51" V 6950 1700 50  0000 C CNN
@@ -4009,7 +4009,7 @@ $EndComp
 Wire Wire Line
 	5750 2000 5250 2000
 $Comp
-L Relays:G5V-2 K4
+L Peavey_5150-rescue:G5V-2-Relays K4
 U 3 1 60594C82
 P 6600 2600
 F 0 "K4" H 6350 2750 50  0000 C CNN
@@ -4020,7 +4020,7 @@ F 3 "" H 6600 2600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Relays:G5V-2 K4
+L Peavey_5150-rescue:G5V-2-Relays K4
 U 2 1 605925AF
 P 6100 2000
 F 0 "K4" H 5850 2100 50  0000 C CNN
@@ -4036,7 +4036,7 @@ Connection ~ 4350 2000
 Wire Wire Line
 	4750 2000 4350 2000
 $Comp
-L simple:C_US C6
+L Peavey_5150-rescue:C_US-simple C6
 U 1 1 603F265D
 P 4900 2000
 F 0 "C6" V 5050 2000 50  0000 C CNN
@@ -4075,7 +4075,7 @@ F 3 "~" H 4250 3250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L simple:C_US C3
+L Peavey_5150-rescue:C_US-simple C3
 U 1 1 60183A2C
 P 4050 3250
 F 0 "C3" H 3950 3300 50  0000 R CNN
@@ -4144,8 +4144,6 @@ F 3 "~" H 3300 2750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3300 3000 3300 3300
-Wire Wire Line
 	3100 3000 3300 3000
 Wire Wire Line
 	2700 3000 2800 3000
@@ -4173,20 +4171,6 @@ F 3 "~" H 2950 3000 50  0001 C CNN
 	1    2950 3000
 	0    1    1    0   
 $EndComp
-Connection ~ 3300 3900
-Wire Wire Line
-	3300 3900 3300 3600
-$Comp
-L simple:C_US C15
-U 1 1 5FA8DAFA
-P 3300 3450
-F 0 "C15" H 3200 3500 50  0000 R CNN
-F 1 ".1uF 250V" H 3200 3350 50  0000 R CNN
-F 2 "" H 3300 3450 50  0001 C CNN
-F 3 "" H 3300 3450 50  0001 C CNN
-	1    3300 3450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1750 5200 1750 5100
 Wire Wire Line
@@ -4202,11 +4186,8 @@ Wire Wire Line
 	3300 5100 2600 5100
 Wire Wire Line
 	3300 5000 3300 5100
-Connection ~ 3300 4600
-Wire Wire Line
-	3300 4700 3300 4600
 $Comp
-L simple:C_US C20
+L Peavey_5150-rescue:C_US-simple C20
 U 1 1 5F60E0F3
 P 3300 4850
 F 0 "C20" H 3200 4850 50  0000 R CNN
@@ -4217,48 +4198,9 @@ F 3 "" H 3300 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3300 4600 3100 4600
-Wire Wire Line
-	3300 3900 3300 4600
-Wire Wire Line
-	3100 3900 3300 3900
-Wire Wire Line
-	2700 3900 2700 4500
-Connection ~ 2700 3900
-Wire Wire Line
-	2800 3900 2700 3900
-$Comp
-L Device:R_US R27
-U 1 1 5F495874
-P 2950 3900
-F 0 "R27" V 2850 3900 50  0000 C CNN
-F 1 "22K 1/4W" V 3050 3900 50  0000 C CNN
-F 2 "" V 2990 3890 50  0001 C CNN
-F 3 "~" H 2950 3900 50  0001 C CNN
-	1    2950 3900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
 	2800 4600 2500 4600
-$Comp
-L Device:R_US R30
-U 1 1 5F3DBB8C
-P 2950 4600
-F 0 "R30" V 2850 4600 50  0000 C CNN
-F 1 "22K 1/4W" V 3050 4600 50  0000 C CNN
-F 2 "" V 2990 4590 50  0001 C CNN
-F 3 "~" H 2950 4600 50  0001 C CNN
-	1    2950 4600
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	2700 4500 2500 4500
-Wire Wire Line
-	2700 3550 2700 3900
-Wire Wire Line
-	2350 3550 2700 3550
-Wire Wire Line
-	2600 4400 2600 5100
+	2600 4400 2600 4500
 Connection ~ 2600 4400
 Wire Wire Line
 	2500 4400 2600 4400
@@ -4274,22 +4216,16 @@ Wire Wire Line
 Wire Wire Line
 	2500 4300 2600 4300
 $Comp
-L simple:Jack_6.35 J39
+L Peavey_5150-rescue:Jack_6.35-simple J39
 U 1 1 5F053B0E
 P 2150 4450
 F 0 "J39" H 1800 4650 50  0000 C CNN
-F 1 "INPUT" H 1850 4750 50  0000 C CNB
+F 1 "INPUT REAR" H 1850 4750 50  0000 L CNB
 F 2 "" H 1400 4700 50  0001 C CNN
 F 3 "" H 1400 4700 50  0001 C CNN
 	1    2150 4450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2450 3450 2450 3900
-Connection ~ 2450 3450
-Wire Wire Line
-	2350 3450 2450 3450
-Connection ~ 2450 3350
 Wire Wire Line
 	2450 3250 2450 3350
 Wire Wire Line
@@ -4304,8 +4240,6 @@ Wire Wire Line
 Wire Wire Line
 	2450 3900 1700 3900
 Wire Wire Line
-	2450 3350 2450 3450
-Wire Wire Line
 	2350 3350 2450 3350
 $Comp
 L power:Earth #PWR0118
@@ -4319,11 +4253,11 @@ F 3 "~" H 1750 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L simple:Jack_6.35 J37
+L Peavey_5150-rescue:Jack_6.35-simple J37
 U 1 1 5ED94177
 P 2000 3400
 F 0 "J37" H 1650 3600 50  0000 C CNN
-F 1 "INPUT" H 1700 3700 50  0000 C CNB
+F 1 "INPUT FRONT" H 1700 3700 50  0000 L CNB
 F 2 "" H 1250 3650 50  0001 C CNN
 F 3 "" H 1250 3650 50  0001 C CNN
 	1    2000 3400
@@ -4388,7 +4322,7 @@ F 3 "~" H 9200 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L simple:C_US C4
+L Peavey_5150-rescue:C_US-simple C4
 U 1 1 6380C8B7
 P 9000 3750
 F 0 "C4" H 8900 3800 50  0000 R CNN
@@ -4428,7 +4362,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 3600 9200 3500
 $Comp
-L simple:C_US C2
+L Peavey_5150-rescue:C_US-simple C2
 U 1 1 63A1B45A
 P 9850 2500
 F 0 "C2" V 10000 2500 50  0000 C CNN
@@ -4543,7 +4477,7 @@ $EndComp
 Wire Wire Line
 	10900 3900 10900 3800
 $Comp
-L Relays:G5V-2 K1
+L Peavey_5150-rescue:G5V-2-Relays K1
 U 2 1 64597A02
 P 10850 5000
 F 0 "K1" H 10600 5150 50  0000 C CNN
@@ -4554,7 +4488,7 @@ F 3 "" H 10850 5000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Relays:G5V-2 K1
+L Peavey_5150-rescue:G5V-2-Relays K1
 U 3 1 6459B524
 P 10850 4550
 F 0 "K1" H 10600 4700 50  0000 C CNN
@@ -4655,7 +4589,7 @@ Wire Wire Line
 Wire Wire Line
 	11000 2600 11000 2500
 $Comp
-L simple:C_US C1
+L Peavey_5150-rescue:C_US-simple C1
 U 1 1 654B62CF
 P 11600 2500
 F 0 "C1" V 11750 2500 50  0000 C CNN
@@ -4682,7 +4616,7 @@ F 3 "~" H 12150 3250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L simple:C_US C48
+L Peavey_5150-rescue:C_US-simple C48
 U 1 1 656E711C
 P 11950 3250
 F 0 "C48" H 11850 3300 50  0000 R CNN
@@ -4762,7 +4696,7 @@ F 3 "~" H 13000 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L simple:C_US C5
+L Peavey_5150-rescue:C_US-simple C5
 U 1 1 6621598B
 P 12800 3750
 F 0 "C5" H 12700 3800 50  0000 R CNN
@@ -4830,7 +4764,7 @@ F 3 "~" H 13500 2500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L simple:C_US C57
+L Peavey_5150-rescue:C_US-simple C57
 U 1 1 66B4939D
 P 13900 2500
 F 0 "C57" V 14050 2500 50  0000 C CNN
@@ -4986,7 +4920,7 @@ $EndComp
 Wire Wire Line
 	16000 3700 16000 3600
 $Comp
-L simple:C_US C56
+L Peavey_5150-rescue:C_US-simple C56
 U 1 1 6796D29C
 P 15650 2700
 F 0 "C56" V 15800 2700 50  0000 C CNN
@@ -5037,7 +4971,7 @@ Wire Wire Line
 Wire Wire Line
 	16600 2300 16600 2500
 $Comp
-L simple:C_US C58
+L Peavey_5150-rescue:C_US-simple C58
 U 1 1 6845C26C
 P 17050 2500
 F 0 "C58" V 17200 2500 50  0000 C CNN
@@ -5105,7 +5039,7 @@ Wire Wire Line
 	17350 2800 17350 2700
 Connection ~ 17350 2700
 $Comp
-L simple:R_POT_US_P VR6
+L Peavey_5150-rescue:R_POT_US_P-simple VR6
 U 1 1 697255F4
 P 22450 3050
 F 0 "VR6" H 22650 3100 50  0000 L CNN
@@ -5152,7 +5086,7 @@ BRIGHT
 Text Label 6400 15300 0    50   ~ 0
 GNDPWR
 $Comp
-L Relays:G5V-2 K2
+L Peavey_5150-rescue:G5V-2-Relays K2
 U 1 1 6AA3417A
 P 23150 15100
 F 0 "K2" H 22900 15150 50  0000 C CNN
@@ -5163,7 +5097,7 @@ F 3 "" H 23150 15100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Relays:G5V-2 K1
+L Peavey_5150-rescue:G5V-2-Relays K1
 U 1 1 6AA3618E
 P 22800 15100
 F 0 "K1" H 23050 15150 50  0000 C CNN
@@ -5174,7 +5108,7 @@ F 3 "" H 22800 15100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Relays:G5V-2 K4
+L Peavey_5150-rescue:G5V-2-Relays K4
 U 1 1 6AC1E772
 P 24950 15100
 F 0 "K4" H 25200 15150 50  0000 C CNN
@@ -5185,7 +5119,7 @@ F 3 "" H 24950 15100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Relays:G5V-2 K2
+L Peavey_5150-rescue:G5V-2-Relays K2
 U 3 1 6AC21A8E
 P 23250 3150
 F 0 "K2" H 23000 3300 50  0000 C CNN
@@ -5198,7 +5132,7 @@ $EndComp
 Wire Wire Line
 	23600 3150 23800 3150
 $Comp
-L simple:C_US C52
+L Peavey_5150-rescue:C_US-simple C52
 U 1 1 5DCD0FB9
 P 24100 3150
 F 0 "C52" V 24250 3100 50  0000 L CNN
@@ -5209,7 +5143,7 @@ F 3 "" H 24100 3150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Relays:G5V1 K5
+L Peavey_5150-rescue:G5V1-Relays K5
 U 2 1 5ED8EB44
 P 7500 3150
 F 0 "K5" H 7450 2869 50  0000 C CNN
@@ -5237,7 +5171,7 @@ Connection ~ 7050 3150
 Wire Wire Line
 	7050 3150 7050 3600
 $Comp
-L Relays:G5V1 K5
+L Peavey_5150-rescue:G5V1-Relays K5
 U 1 1 5F003346
 P 25800 15100
 F 0 "K5" H 25645 15146 50  0000 R CNN
@@ -5319,4 +5253,51 @@ Wire Wire Line
 	21000 3150 21150 3150
 Wire Wire Line
 	21150 3150 21150 3650
+Wire Wire Line
+	3300 3000 3300 3550
+Wire Wire Line
+	2350 3450 3100 3450
+Wire Wire Line
+	2350 3550 3300 3550
+Wire Wire Line
+	2450 3350 2450 3900
+Connection ~ 2450 3350
+$Comp
+L Device:R_US R30
+U 1 1 5F3DBB8C
+P 2950 4600
+F 0 "R30" V 2850 4600 50  0000 C CNN
+F 1 "22K 1/4W" V 3050 4600 50  0000 C CNN
+F 2 "" V 2990 4590 50  0001 C CNN
+F 3 "~" H 2950 4600 50  0001 C CNN
+	1    2950 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 4500 2600 4500
+Connection ~ 2600 4500
+Wire Wire Line
+	2600 4500 2600 5100
+Wire Wire Line
+	3100 3450 3100 3800
+$Comp
+L Peavey_5150-rescue:C_US-simple C15
+U 1 1 5FA8DAFA
+P 3100 3950
+F 0 "C15" H 3000 4000 50  0000 R CNN
+F 1 ".1uF 250V" H 3000 3850 50  0000 R CNN
+F 2 "" H 3100 3950 50  0001 C CNN
+F 3 "" H 3100 3950 50  0001 C CNN
+	1    3100 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 4700 3300 4600
+Wire Wire Line
+	3300 4600 3100 4600
+Wire Wire Line
+	3100 4100 3300 4100
+Wire Wire Line
+	3300 4100 3300 4600
+Connection ~ 3300 4600
 $EndSCHEMATC
