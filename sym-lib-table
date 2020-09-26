@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Peavey_5150-rescue)(type Legacy)(uri ${KIPRJMOD}/Peavey_5150-rescue.lib)(options "")(descr ""))
+)
