@@ -1,4 +1,4 @@
-15828608448991103
+15831811097860682
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -61459,6 +61459,20 @@ Jack_6.35
 0
 6
 6
+Peavey-EVH5150
+K73-15A
+C, Axial series, Axial, Horizontal, pin pitch=27.5mm, , length*diameter=22*10.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf
+C Axial series Axial Horizontal pin pitch 27.5mm  length 22mm diameter 10.5mm
+0
+2
+2
+Peavey-EVH5150
+orange
+C, Axial series, Axial, Horizontal, pin pitch=27.5mm, , length*diameter=22*10.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf
+C Axial series Axial Horizontal pin pitch 27.5mm  length 22mm diameter 10.5mm
+0
+2
+2
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
