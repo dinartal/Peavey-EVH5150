@@ -1,4 +1,4 @@
-(module Jack_6.35 (layer F.Cu) (tedit 5F6FA3C2)
+(module Jack_6.35 (layer F.Cu) (tedit 5FAD967B)
   (fp_text reference REF** (at 0 -13.1) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -29,8 +29,8 @@
     (rotate (xyz -90 0 0))
   )
   (model ${KIPRJMOD}/3d/Jack_6.35_2.STEP
-    (offset (xyz 0.25 10.8 4.5))
-    (scale (xyz 1 1 1))
+    (offset (xyz 0 10.8 4.5))
+    (scale (xyz 1.05 1 1.05))
     (rotate (xyz -90 0 0))
   )
 )
