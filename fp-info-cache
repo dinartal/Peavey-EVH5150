@@ -1,4 +1,4 @@
-15839765470003052
+15863367051586535
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -61446,6 +61446,69 @@ TO-264-5 Vertical RM 3.81mm
 5
 5
 Peavey-EVH5150
+CP_UNIVERSAL
+
+
+0
+4
+2
+Peavey-EVH5150
+C_Axial_K73_15_630V
+C, Axial series, Axial, Horizontal, pin pitch=27.5mm, , length*diameter=22*10.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf
+C Axial series Axial Horizontal pin pitch 27.5mm  length 22mm diameter 10.5mm
+0
+2
+2
+Peavey-EVH5150
+C_Disc_D7.5mm_W5.0mm_P7.50mm_Silver_Mica
+C, Disc series, Radial, pin pitch=7.50mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
+C Disc series Radial pin pitch 7.50mm  diameter 7.5mm width 5.0mm Capacitor
+0
+2
+2
+Peavey-EVH5150
+C_Disc_D7.5_W5.0mm_P7.50mm
+
+
+0
+2
+2
+Peavey-EVH5150
+C_Rect_L7.0mm_W2.5mm_P5.00mm_CL223x
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2.5mm^2, Capacitor
+C Rect series Radial pin pitch 5.00mm  length 7mm width 2.5mm Capacitor
+0
+2
+2
+Peavey-EVH5150
+C_Rect_L7.2mm_W3.0mm_P5.00mm_Wima_Slim
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*3.0mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf
+C Rect series Radial pin pitch 5.00mm  length 7.2mm width 3.0mm Capacitor
+0
+2
+2
+Peavey-EVH5150
+C_Rect_L7.2mm_W4.5mm_P5.00mm_Wima_Small
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*4.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf
+C Rect series Radial pin pitch 5.00mm  length 7.2mm width 4.5mm Capacitor
+0
+2
+2
+Peavey-EVH5150
+C_Rect_L7.2mm_W5.5mm_P5.00mm_Wima_Fat
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*6mm^2, Capacitor
+C Rect series Radial pin pitch 5.00mm  length 7mm width 6mm Capacitor
+0
+2
+2
+Peavey-EVH5150
+C_UNIVERSAL
+C
+C
+0
+6
+2
+Peavey-EVH5150
 GZC9-A
 
 
@@ -61488,6 +61551,48 @@ Valve ECC-83-1 round pins
 11
 11
 Peavey-EVH5150
+Potentiometer_Alpha_Single_Horizontal
+Potentiometer, horizontal, Alpha Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK16/RK16_list.html
+Potentiometer horizontal Alpha Single
+0
+3
+3
+Peavey-EVH5150
+Relay_DPDT_Omron_G5V-2
+http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v2.pdf
+Omron G5V-2 Relay DPDT
+0
+8
+8
+Peavey-EVH5150
+Relay_SPDT_Omron_G5V-1
+Relay Omron G5V-1, see http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_1.pdf
+Relay Omron G5V-1
+0
+6
+6
+Peavey-EVH5150
+R_Axial_0.5W
+Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm
+0
+2
+2
+Peavey-EVH5150
+R_Axial_1W
+Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf
+Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm
+0
+2
+2
+Peavey-EVH5150
+SOIC8E
+
+
+0
+13
+9
+Peavey-EVH5150
 tube_universal
 
 
@@ -61496,8 +61601,8 @@ tube_universal
 11
 Peavey-EVH5150
 WIMA_MKP_4_0.022_400
-C, Axial series, Axial, Horizontal, pin pitch=27.5mm, , length*diameter=22*10.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf
-C Axial series Axial Horizontal pin pitch 27.5mm  length 22mm diameter 10.5mm
+C, Horizontal, pin pitch=10mm
+C
 0
 2
 2
