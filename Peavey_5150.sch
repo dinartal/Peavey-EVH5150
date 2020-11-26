@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Peavey_5150-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
@@ -15,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R_US R24
+L Peavey_5150-rescue:R_US-Device R24
 U 1 1 5DCB9BF0
 P 18900 3600
 F 0 "R24" H 19100 3550 50  0000 R CNN
 F 1 "33K" H 19100 3650 50  0000 R CNN
-F 2 "" V 18940 3590 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 18940 3590 50  0001 C CNN
 F 3 "~" H 18900 3600 50  0001 C CNN
 	1    18900 3600
 	-1   0    0    1   
@@ -31,24 +30,24 @@ U 1 1 5DCBC9BA
 P 19150 3400
 F 0 "C59" H 19200 3500 50  0000 L CNN
 F 1 "0.01uF 50v" H 19200 3300 50  0000 L CNN
-F 2 "" H 19150 3400 50  0001 C CNN
+F 2 "Peavey-EVH5150:C_Rect_L7.2mm_W4.5mm_P5.00mm_Wima_Small" H 19150 3400 50  0001 C CNN
 F 3 "" H 19150 3400 50  0001 C CNN
 	1    19150 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R94
+L Peavey_5150-rescue:R_US-Device R94
 U 1 1 5DCBF8B0
 P 19150 3700
 F 0 "R94" H 19100 3650 50  0000 R CNN
 F 1 "47K" H 19100 3750 50  0000 R CNN
-F 2 "" V 19190 3690 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 19190 3690 50  0001 C CNN
 F 3 "~" H 19150 3700 50  0001 C CNN
 	1    19150 3700
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:Earth_Protective #PWR047
+L Peavey_5150-rescue:Earth_Protective-power #PWR047
 U 1 1 5DCC08B9
 P 19150 5100
 F 0 "#PWR047" H 19400 4850 50  0001 C CNN
@@ -80,7 +79,7 @@ U 1 1 5DCD948E
 P 20200 4550
 F 0 "C37" H 20250 4650 50  0000 L CNN
 F 1 "0.022uF 50v" H 20250 4450 50  0000 L CNN
-F 2 "" H 20200 4550 50  0001 C CNN
+F 2 "Peavey-EVH5150:C_Rect_L7.2mm_W4.5mm_P5.00mm_Wima_Small" H 20200 4550 50  0001 C CNN
 F 3 "" H 20200 4550 50  0001 C CNN
 	1    20200 4550
 	1    0    0    -1  
@@ -96,7 +95,7 @@ U 1 1 5DCE0EC5
 P 20850 3150
 F 0 "C14" V 21000 3100 50  0000 L CNN
 F 1 "470pF 50v" V 20700 3000 50  0000 L CNN
-F 2 "" H 20850 3150 50  0001 C CNN
+F 2 "Peavey-EVH5150:C_Rect_L7.2mm_W5.5mm_P5.00mm_Wima_Fat" H 20850 3150 50  0001 C CNN
 F 3 "" H 20850 3150 50  0001 C CNN
 	1    20850 3150
 	0    -1   -1   0   
@@ -111,7 +110,7 @@ U 1 1 5DCEDC06
 P 20700 4050
 F 0 "C18" V 20850 4000 50  0000 L CNN
 F 1 "0.022uF 50v" V 20550 3900 50  0000 L CNN
-F 2 "" H 20700 4050 50  0001 C CNN
+F 2 "Peavey-EVH5150:C_Rect_L7.2mm_W5.5mm_P5.00mm_Wima_Fat" H 20700 4050 50  0001 C CNN
 F 3 "" H 20700 4050 50  0001 C CNN
 	1    20700 4050
 	0    -1   -1   0   
@@ -128,7 +127,7 @@ U 1 1 5DD2ECB9
 P 21150 3800
 F 0 "VR5" H 21350 3850 50  0000 L CNN
 F 1 "250K" H 21350 3750 50  0000 L CNN
-F 2 "" H 21150 3800 50  0001 C CNN
+F 2 "Peavey-EVH5150:Potentiometer_Alpha_Single_Horizontal" H 21150 3800 50  0001 C CNN
 F 3 "" H 21150 3800 50  0001 C CNN
 	1    21150 3800
 	1    0    0    -1  
@@ -139,7 +138,7 @@ U 1 1 5DD31C45
 P 21150 4350
 F 0 "VR3" H 21350 4400 50  0000 L CNN
 F 1 "1M" H 21350 4300 50  0000 L CNN
-F 2 "" H 21150 4350 50  0001 C CNN
+F 2 "Peavey-EVH5150:Potentiometer_Alpha_Single_Horizontal" H 21150 4350 50  0001 C CNN
 F 3 "" H 21150 4350 50  0001 C CNN
 	1    21150 4350
 	1    0    0    -1  
@@ -150,7 +149,7 @@ U 1 1 5DD446E1
 P 21150 4850
 F 0 "VR4" H 21350 4900 50  0000 L CNN
 F 1 "25K" H 21350 4800 50  0000 L CNN
-F 2 "" H 21150 4850 50  0001 C CNN
+F 2 "Peavey-EVH5150:Potentiometer_Alpha_Single_Horizontal" H 21150 4850 50  0001 C CNN
 F 3 "" H 21150 4850 50  0001 C CNN
 	1    21150 4850
 	-1   0    0    -1  
@@ -160,7 +159,7 @@ Wire Wire Line
 Wire Wire Line
 	20200 4850 20200 4700
 $Comp
-L power:Earth_Protective #PWR049
+L Peavey_5150-rescue:Earth_Protective-power #PWR049
 U 1 1 5DD53D99
 P 21150 5100
 F 0 "#PWR049" H 21400 4850 50  0001 C CNN
@@ -176,7 +175,7 @@ U 1 1 5DD719B4
 P 21950 4050
 F 0 "VR7" H 22150 4100 50  0000 L CNN
 F 1 "1M" H 22150 4000 50  0000 L CNN
-F 2 "" H 21950 4050 50  0001 C CNN
+F 2 "Peavey-EVH5150:Potentiometer_Alpha_Single_Horizontal" H 21950 4050 50  0001 C CNN
 F 3 "" H 21950 4050 50  0001 C CNN
 	1    21950 4050
 	1    0    0    -1  
@@ -184,7 +183,7 @@ $EndComp
 Wire Wire Line
 	21950 3900 21950 3800
 $Comp
-L power:Earth_Protective #PWR055
+L Peavey_5150-rescue:Earth_Protective-power #PWR055
 U 1 1 5DD83A07
 P 21950 5100
 F 0 "#PWR055" H 22200 4850 50  0001 C CNN
@@ -208,7 +207,7 @@ U 1 1 5E43F8F7
 P 20200 3400
 F 0 "VR12" H 20400 3450 50  0000 L CNN
 F 1 "250K" H 20400 3350 50  0000 L CNN
-F 2 "" H 20200 3400 50  0001 C CNN
+F 2 "Peavey-EVH5150:Potentiometer_Alpha_Single_Horizontal" H 20200 3400 50  0001 C CNN
 F 3 "" H 20200 3400 50  0001 C CNN
 	1    20200 3400
 	-1   0    0    -1  
@@ -249,7 +248,7 @@ F 3 "" H 10520 17730 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR022
+L Peavey_5150-rescue:GND-power #PWR022
 U 1 1 5DDD935A
 P 10050 18450
 F 0 "#PWR022" H 10050 18200 50  0001 C CNN
@@ -269,7 +268,7 @@ Connection ~ 10050 18350
 Wire Wire Line
 	10050 18350 10050 18250
 $Comp
-L Device:R_US R37
+L Peavey_5150-rescue:R_US-Device R37
 U 1 1 5DE0A0E8
 P 9500 18100
 F 0 "R37" H 9550 18050 50  0000 L CNN
@@ -284,7 +283,7 @@ Wire Wire Line
 Wire Wire Line
 	9500 17850 9500 17950
 $Comp
-L power:GND #PWR019
+L Peavey_5150-rescue:GND-power #PWR019
 U 1 1 5DE210A9
 P 9500 18450
 F 0 "#PWR019" H 9500 18200 50  0001 C CNN
@@ -300,7 +299,7 @@ Wire Wire Line
 	9600 17550 9000 17550
 Connection ~ 9000 17550
 $Comp
-L Device:R_US R8
+L Peavey_5150-rescue:R_US-Device R8
 U 1 1 5DE37079
 P 9000 17400
 F 0 "R8" H 9050 17350 50  0000 L CNN
@@ -313,7 +312,7 @@ $EndComp
 Wire Wire Line
 	9600 17250 9000 17250
 $Comp
-L power:GND #PWR017
+L Peavey_5150-rescue:GND-power #PWR017
 U 1 1 5DE64BF9
 P 9000 18450
 F 0 "#PWR017" H 9000 18200 50  0001 C CNN
@@ -329,7 +328,7 @@ Wire Wire Line
 	9000 18450 9000 18250
 Connection ~ 9000 17250
 $Comp
-L Device:R_US R10
+L Peavey_5150-rescue:R_US-Device R10
 U 1 1 5DE39E7B
 P 9000 18100
 F 0 "R10" H 9050 18050 50  0000 L CNN
@@ -361,7 +360,7 @@ Wire Wire Line
 Wire Wire Line
 	10700 17250 10600 17250
 $Comp
-L Device:D_Schottky D2
+L Peavey_5150-rescue:D_Schottky-Device D2
 U 1 1 5DFE8C34
 P 10950 17000
 F 0 "D2" V 10904 17079 50  0000 L CNN
@@ -377,7 +376,7 @@ Wire Wire Line
 	10950 16750 10950 16850
 Connection ~ 10700 16750
 $Comp
-L power:GND #PWR025
+L Peavey_5150-rescue:GND-power #PWR025
 U 1 1 5E003DAC
 P 10950 17250
 F 0 "#PWR025" H 10950 17000 50  0001 C CNN
@@ -390,7 +389,7 @@ $EndComp
 Wire Wire Line
 	10950 17250 10950 17150
 $Comp
-L Device:L L1
+L Peavey_5150-rescue:L-Device L1
 U 1 1 5E01CD9D
 P 11200 16750
 F 0 "L1" V 11390 16750 50  0000 C CNN
@@ -402,7 +401,7 @@ F 4 "SMDRI127-330MT" V 11200 16750 50  0001 C CNN "PN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR028
+L Peavey_5150-rescue:GND-power #PWR028
 U 1 1 5E020789
 P 11800 17250
 F 0 "#PWR028" H 11800 17000 50  0001 C CNN
@@ -429,7 +428,7 @@ F 3 "" H 10700 18000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R28
+L Peavey_5150-rescue:R_US-Device R28
 U 1 1 5E06A463
 P 10700 18300
 F 0 "R28" H 10650 18250 50  0000 R CNN
@@ -440,7 +439,7 @@ F 3 "~" H 10700 18300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR023
+L Peavey_5150-rescue:GND-power #PWR023
 U 1 1 5E06BADD
 P 10700 18450
 F 0 "#PWR023" H 10700 18200 50  0001 C CNN
@@ -453,7 +452,7 @@ $EndComp
 Wire Wire Line
 	10700 17850 10600 17850
 $Comp
-L Device:R_US R34
+L Peavey_5150-rescue:R_US-Device R34
 U 1 1 5E088A44
 P 12600 18100
 F 0 "R34" H 12550 18050 50  0000 R CNN
@@ -469,7 +468,7 @@ U 1 1 5E0919F5
 P 12450 17000
 F 0 "VR11" H 12650 17050 50  0000 L CNN
 F 1 "1M" H 12650 16950 50  0000 L CNN
-F 2 "" H 12450 17000 50  0001 C CNN
+F 2 "Peavey-EVH5150:Potentiometer_Alpha_Single_Horizontal" H 12450 17000 50  0001 C CNN
 F 3 "" H 12450 17000 50  0001 C CNN
 	1    12450 17000
 	1    0    0    -1  
@@ -483,7 +482,7 @@ Wire Wire Line
 	12600 17950 12600 17550
 Connection ~ 12600 17550
 $Comp
-L power:GND #PWR031
+L Peavey_5150-rescue:GND-power #PWR031
 U 1 1 5E1408E2
 P 12600 18450
 F 0 "#PWR031" H 12600 18200 50  0001 C CNN
@@ -513,76 +512,12 @@ F 3 "" H 5900 14300 50  0001 C CNN
 	1    5900 14300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Diode:1N4007 CR8
-U 1 1 5E1994C4
-P 6900 14050
-F 0 "CR8" V 6854 14129 50  0000 L CNN
-F 1 "1N4007" V 6945 14129 50  0000 L CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 6900 13875 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 6900 14050 50  0001 C CNN
-	1    6900 14050
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:1N4007 CR9
-U 1 1 5E19DD5E
-P 7450 14050
-F 0 "CR9" V 7496 13971 50  0000 R CNN
-F 1 "1N4007" V 7405 13971 50  0000 R CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 7450 13875 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 7450 14050 50  0001 C CNN
-	1    7450 14050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4007 CR11
-U 1 1 5E19F70A
-P 6900 14550
-F 0 "CR11" V 6946 14471 50  0000 R CNN
-F 1 "1N4007" V 6855 14471 50  0000 R CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 6900 14375 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 6900 14550 50  0001 C CNN
-	1    6900 14550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4007 CR10
-U 1 1 5E1A0787
-P 7450 14550
-F 0 "CR10" V 7404 14629 50  0000 L CNN
-F 1 "1N4007" V 7495 14629 50  0000 L CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 7450 14375 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 7450 14550 50  0001 C CNN
-	1    7450 14550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6900 13900 6900 13800
-Wire Wire Line
-	6900 13800 7450 13800
-Wire Wire Line
-	7450 13800 7450 13900
-Wire Wire Line
-	7450 14200 7450 14300
-Wire Wire Line
-	6900 14400 6900 14300
-Wire Wire Line
-	6900 14700 6900 14800
-Wire Wire Line
-	6900 14800 7450 14800
-Wire Wire Line
-	7450 14800 7450 14700
 Wire Wire Line
 	5900 13800 6400 13800
 Wire Wire Line
 	5900 13800 5900 14150
-Connection ~ 6900 13800
-Wire Wire Line
-	6900 14800 6400 14800
 Wire Wire Line
 	5900 14800 5900 14450
-Connection ~ 6900 14800
 $Comp
 L Peavey_5150-rescue:Fuse-simple-Peavey_5150-rescue F1
 U 1 1 5E24C16D
@@ -598,7 +533,7 @@ Wire Wire Line
 	5800 13800 5900 13800
 Connection ~ 5900 13800
 $Comp
-L Device:CP1 C34
+L Peavey_5150-rescue:CP1-Device C34
 U 1 1 5E26BB34
 P 8700 14550
 F 0 "C34" H 8800 14600 50  0000 L CNN
@@ -609,7 +544,7 @@ F 3 "~" H 8700 14550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1 C38
+L Peavey_5150-rescue:CP1-Device C38
 U 1 1 5E270F8C
 P 8700 15050
 F 0 "C38" H 8800 15100 50  0000 L CNN
@@ -620,7 +555,7 @@ F 3 "~" H 8700 15050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R62
+L Peavey_5150-rescue:R_US-Device R62
 U 1 1 5E27206B
 P 9250 14550
 F 0 "R62" H 9200 14500 50  0000 R CNN
@@ -631,7 +566,7 @@ F 3 "~" H 9250 14550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_US R64
+L Peavey_5150-rescue:R_US-Device R64
 U 1 1 5E2731A3
 P 9250 15050
 F 0 "R64" H 9200 15000 50  0000 R CNN
@@ -642,17 +577,11 @@ F 3 "~" H 9250 15050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7450 14300 8000 14300
-Wire Wire Line
 	8700 14300 8700 14400
-Connection ~ 7450 14300
-Wire Wire Line
-	7450 14300 7450 14400
 Wire Wire Line
 	8700 14300 9250 14300
 Wire Wire Line
 	9250 14300 9250 14400
-Connection ~ 8700 14300
 Wire Wire Line
 	9250 14700 9250 14800
 Wire Wire Line
@@ -672,17 +601,9 @@ Wire Wire Line
 Wire Wire Line
 	9250 15300 9250 15200
 Wire Wire Line
-	6900 14300 6400 14300
-Wire Wire Line
-	6150 15300 8700 15300
-Wire Wire Line
 	6150 14300 6150 15300
-Connection ~ 6900 14300
-Wire Wire Line
-	6900 14300 6900 14200
-Connection ~ 8700 15300
 $Comp
-L Device:R_US R63
+L Peavey_5150-rescue:R_US-Device R63
 U 1 1 5E38A903
 P 10150 14550
 F 0 "R63" H 10100 14500 50  0000 R CNN
@@ -693,7 +614,7 @@ F 3 "~" H 10150 14550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_US R65
+L Peavey_5150-rescue:R_US-Device R65
 U 1 1 5E38B541
 P 10150 15050
 F 0 "R65" H 10100 15000 50  0000 R CNN
@@ -704,7 +625,7 @@ F 3 "~" H 10150 15050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:D D1
+L Peavey_5150-rescue:D-Device D1
 U 1 1 5E38BE96
 P 10600 14550
 F 0 "D1" V 10554 14629 50  0000 L CNN
@@ -715,7 +636,7 @@ F 3 "~" H 10600 14550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:CP1 C23
+L Peavey_5150-rescue:CP1-Device C23
 U 1 1 5E38D9C0
 P 10600 15050
 F 0 "C23" H 10700 15100 50  0000 L CNN
@@ -726,7 +647,7 @@ F 3 "~" H 10600 15050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:IRF540N Q1
+L Peavey_5150-rescue:IRF540N-Transistor_FET Q1
 U 1 1 5E39117D
 P 11250 14400
 F 0 "Q1" V 11593 14400 50  0000 C CNN
@@ -737,7 +658,7 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 11250 14400 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_US R66
+L Peavey_5150-rescue:R_US-Device R66
 U 1 1 5E395076
 P 11000 14800
 F 0 "R66" V 10900 14800 50  0000 C CNN
@@ -800,7 +721,7 @@ F 3 "" H 11550 14550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R67
+L Peavey_5150-rescue:R_US-Device R67
 U 1 1 5E4EC2A1
 P 11950 14550
 F 0 "R67" H 11900 14500 50  0000 R CNN
@@ -838,28 +759,6 @@ ULTRA VOL
 Text Notes 20250 3300 0    50   ~ 0
 Sweep
 $Comp
-L Peavey_5150-rescue:C_US-simple-Peavey_5150-rescue C12
-U 1 1 5DF27EB5
-P 8000 14050
-F 0 "C12" H 7900 14100 50  0000 R CNN
-F 1 "0.01uF" H 7900 14000 50  0000 R CNN
-F 2 "" H 8000 14050 50  0001 C CNN
-F 3 "" H 8000 14050 50  0001 C CNN
-	1    8000 14050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Peavey_5150-rescue:C_US-simple-Peavey_5150-rescue C16
-U 1 1 5DF55BD6
-P 8000 14550
-F 0 "C16" H 7900 14600 50  0000 R CNN
-F 1 "0.01uF" H 7900 14500 50  0000 R CNN
-F 2 "" H 8000 14550 50  0001 C CNN
-F 3 "" H 8000 14550 50  0001 C CNN
-	1    8000 14550
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Peavey_5150-rescue:C_US-simple-Peavey_5150-rescue C7
 U 1 1 5DF7CC89
 P 6400 14050
@@ -883,9 +782,6 @@ F 3 "" H 6400 14550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6400 13900 6400 13800
-Connection ~ 6400 13800
-Wire Wire Line
-	6400 13800 6900 13800
 Wire Wire Line
 	6400 14200 6400 14300
 Connection ~ 6400 14300
@@ -895,33 +791,15 @@ Wire Wire Line
 	6400 14400 6400 14300
 Wire Wire Line
 	6400 14700 6400 14800
-Connection ~ 6400 14800
 Wire Wire Line
 	6400 14800 5900 14800
-Wire Wire Line
-	8000 13900 8000 13800
-Wire Wire Line
-	8000 13800 7450 13800
-Connection ~ 7450 13800
-Wire Wire Line
-	8000 14400 8000 14300
-Connection ~ 8000 14300
-Wire Wire Line
-	8000 14300 8700 14300
-Wire Wire Line
-	8000 14200 8000 14300
-Wire Wire Line
-	8000 14700 8000 14800
-Wire Wire Line
-	8000 14800 7450 14800
-Connection ~ 7450 14800
 Wire Wire Line
 	5400 13800 5300 13800
 Wire Wire Line
 	5900 14800 5300 14800
 Connection ~ 5900 14800
 $Comp
-L Diode:1N4007 CR1
+L Peavey_5150-rescue:1N4007-Diode CR1
 U 1 1 5E1308F5
 P 6700 17000
 F 0 "CR1" V 6654 17079 50  0000 L CNN
@@ -932,7 +810,7 @@ F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 6700 17000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:1N4007 CR3
+L Peavey_5150-rescue:1N4007-Diode CR3
 U 1 1 5E1308FF
 P 7250 17000
 F 0 "CR3" V 7296 16921 50  0000 R CNN
@@ -943,7 +821,7 @@ F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 7250 17000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4007 CR2
+L Peavey_5150-rescue:1N4007-Diode CR2
 U 1 1 5E130909
 P 6700 17500
 F 0 "CR2" V 6746 17421 50  0000 R CNN
@@ -954,7 +832,7 @@ F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 6700 17500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4007 CR4
+L Peavey_5150-rescue:1N4007-Diode CR4
 U 1 1 5E130913
 P 7250 17500
 F 0 "CR4" V 7204 17579 50  0000 L CNN
@@ -991,7 +869,7 @@ Wire Wire Line
 Wire Wire Line
 	7250 17250 7800 17250
 $Comp
-L power:GND #PWR08
+L Peavey_5150-rescue:GND-power #PWR08
 U 1 1 5E1C1031
 P 6450 18450
 F 0 "#PWR08" H 6450 18200 50  0001 C CNN
@@ -1023,7 +901,7 @@ $EndComp
 Wire Wire Line
 	5400 16750 5300 16750
 $Comp
-L Device:CP1 C21
+L Peavey_5150-rescue:CP1-Device C21
 U 1 1 5E2A2C12
 P 8000 18100
 F 0 "C21" H 8100 18150 50  0000 L CNN
@@ -1054,7 +932,7 @@ Wire Wire Line
 	8000 17950 8000 17250
 Connection ~ 8000 17250
 $Comp
-L power:GND #PWR013
+L Peavey_5150-rescue:GND-power #PWR013
 U 1 1 5E365D3C
 P 8000 18450
 F 0 "#PWR013" H 8000 18200 50  0001 C CNN
@@ -1065,7 +943,7 @@ F 3 "" H 8000 18450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR011
+L Peavey_5150-rescue:GND-power #PWR011
 U 1 1 5E366ECB
 P 7800 18450
 F 0 "#PWR011" H 7800 18200 50  0001 C CNN
@@ -1082,7 +960,7 @@ Wire Wire Line
 Wire Wire Line
 	8000 17250 9000 17250
 $Comp
-L Device:CP1 C28
+L Peavey_5150-rescue:CP1-Device C28
 U 1 1 5E3FCF51
 P 11800 17000
 F 0 "C28" H 11900 17050 50  0000 L CNN
@@ -1119,7 +997,7 @@ Wire Wire Line
 Wire Wire Line
 	11350 16750 11600 16750
 $Comp
-L power:GND #PWR026
+L Peavey_5150-rescue:GND-power #PWR026
 U 1 1 5E5A0F87
 P 11600 17250
 F 0 "#PWR026" H 11600 17000 50  0001 C CNN
@@ -1132,7 +1010,7 @@ $EndComp
 Wire Wire Line
 	11600 17150 11600 17250
 $Comp
-L Device:R_US R31
+L Peavey_5150-rescue:R_US-Device R31
 U 1 1 5E5FC5E6
 P 11950 15050
 F 0 "R31" H 11900 15000 50  0000 R CNN
@@ -1145,7 +1023,7 @@ $EndComp
 Wire Wire Line
 	11950 15300 11950 15200
 $Comp
-L power:GND #PWR034
+L Peavey_5150-rescue:GND-power #PWR034
 U 1 1 5E65857C
 P 12800 15100
 F 0 "#PWR034" H 12800 14850 50  0001 C CNN
@@ -1169,7 +1047,7 @@ Text Notes 11700 14300 0    50   ~ 0
 Text Notes 12000 14800 0    50   ~ 0
 40V
 $Comp
-L MCU_ST_STM8:STM8S003F3P U3
+L Peavey_5150-rescue:STM8S003F3P-MCU_ST_STM8 U3
 U 1 1 5E6BEFB7
 P 18750 15100
 F 0 "U3" H 18350 16000 50  0000 C CNN
@@ -1195,7 +1073,7 @@ Wire Wire Line
 Wire Wire Line
 	18050 15800 18050 15900
 $Comp
-L power:GND #PWR053
+L Peavey_5150-rescue:GND-power #PWR053
 U 1 1 5E6F13E5
 P 18050 16300
 F 0 "#PWR053" H 18050 16050 50  0001 C CNN
@@ -1208,7 +1086,7 @@ $EndComp
 Wire Wire Line
 	18050 16300 18050 16200
 $Comp
-L power:GND #PWR058
+L Peavey_5150-rescue:GND-power #PWR058
 U 1 1 5E721017
 P 18750 16300
 F 0 "#PWR058" H 18750 16050 50  0001 C CNN
@@ -1221,7 +1099,7 @@ $EndComp
 Wire Wire Line
 	18750 16300 18750 16100
 $Comp
-L Connector_Generic:Conn_01x03 J4
+L Peavey_5150-rescue:Conn_01x03-Connector_Generic J4
 U 1 1 5E753FB8
 P 20800 14400
 F 0 "J4" H 20880 14442 50  0000 L CNN
@@ -1255,7 +1133,7 @@ F 3 "" H 17550 16050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR050
+L Peavey_5150-rescue:GND-power #PWR050
 U 1 1 5E844520
 P 17550 16300
 F 0 "#PWR050" H 17550 16050 50  0001 C CNN
@@ -1272,7 +1150,7 @@ Wire Wire Line
 Wire Wire Line
 	17550 15700 18150 15700
 $Comp
-L power:GND #PWR062
+L Peavey_5150-rescue:GND-power #PWR062
 U 1 1 5E7E493E
 P 19850 14500
 F 0 "#PWR062" H 19850 14250 50  0001 C CNN
@@ -1296,7 +1174,7 @@ $EndComp
 Wire Wire Line
 	19850 14500 19850 14400
 $Comp
-L power:GND #PWR065
+L Peavey_5150-rescue:GND-power #PWR065
 U 1 1 5E93CABA
 P 20200 14500
 F 0 "#PWR065" H 20200 14250 50  0001 C CNN
@@ -1307,7 +1185,7 @@ F 3 "" H 20200 14500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR057
+L Peavey_5150-rescue:+3V3-power #PWR057
 U 1 1 5E93D362
 P 18750 14000
 F 0 "#PWR057" H 18750 13850 50  0001 C CNN
@@ -1320,7 +1198,7 @@ $EndComp
 Wire Wire Line
 	18750 14100 18750 14000
 $Comp
-L power:+3V3 #PWR061
+L Peavey_5150-rescue:+3V3-power #PWR061
 U 1 1 5E96F818
 P 19850 14000
 F 0 "#PWR061" H 19850 13850 50  0001 C CNN
@@ -1339,7 +1217,7 @@ Wire Notes Line
 Text Notes 13150 16850 0    50   ~ 0
 12.6V (6.3 for 6N2P)
 $Comp
-L power:GND #PWR076
+L Peavey_5150-rescue:GND-power #PWR076
 U 1 1 5EB96FD8
 P 23150 16300
 F 0 "#PWR076" H 23150 16050 50  0001 C CNN
@@ -1350,7 +1228,7 @@ F 3 "" H 23150 16300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:BC847 Q2
+L Peavey_5150-rescue:BC847-Transistor_BJT Q2
 U 1 1 5EB984AA
 P 23050 15800
 F 0 "Q2" H 23241 15846 50  0000 L CNN
@@ -1363,7 +1241,7 @@ $EndComp
 Wire Wire Line
 	23150 16300 23150 16000
 $Comp
-L Device:R_US R44
+L Peavey_5150-rescue:R_US-Device R44
 U 1 1 5EC02411
 P 22500 15800
 F 0 "R44" V 22400 15800 50  0000 C CNN
@@ -1374,7 +1252,7 @@ F 3 "~" H 22500 15800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R45
+L Peavey_5150-rescue:R_US-Device R45
 U 1 1 5EC03B89
 P 22750 16050
 F 0 "R45" H 22800 16000 50  0000 L CNN
@@ -1392,7 +1270,7 @@ Connection ~ 22750 15800
 Wire Wire Line
 	22750 15800 22650 15800
 $Comp
-L power:GND #PWR075
+L Peavey_5150-rescue:GND-power #PWR075
 U 1 1 5EC694C0
 P 22750 16300
 F 0 "#PWR075" H 22750 16050 50  0001 C CNN
@@ -1409,7 +1287,7 @@ DIST_CLEAN
 Wire Wire Line
 	22350 15800 22250 15800
 $Comp
-L power:GND #PWR079
+L Peavey_5150-rescue:GND-power #PWR079
 U 1 1 5ED34351
 P 25350 16300
 F 0 "#PWR079" H 25350 16050 50  0001 C CNN
@@ -1420,7 +1298,7 @@ F 3 "" H 25350 16300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:BC847 Q3
+L Peavey_5150-rescue:BC847-Transistor_BJT Q3
 U 1 1 5ED3435B
 P 25250 15800
 F 0 "Q3" H 25441 15846 50  0000 L CNN
@@ -1433,7 +1311,7 @@ $EndComp
 Wire Wire Line
 	25350 16300 25350 16000
 $Comp
-L Device:R_US R47
+L Peavey_5150-rescue:R_US-Device R47
 U 1 1 5ED34366
 P 24700 15800
 F 0 "R47" V 24600 15800 50  0000 C CNN
@@ -1444,7 +1322,7 @@ F 3 "~" H 24700 15800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R48
+L Peavey_5150-rescue:R_US-Device R48
 U 1 1 5ED34370
 P 24950 16050
 F 0 "R48" H 25000 16000 50  0000 L CNN
@@ -1462,7 +1340,7 @@ Connection ~ 24950 15800
 Wire Wire Line
 	24950 15800 24850 15800
 $Comp
-L power:GND #PWR078
+L Peavey_5150-rescue:GND-power #PWR078
 U 1 1 5ED3437E
 P 24950 16300
 F 0 "#PWR078" H 24950 16050 50  0001 C CNN
@@ -1498,7 +1376,7 @@ MCU
 Text Notes 21750 13750 0    50   ~ 10
 Relay power
 $Comp
-L Connector:Screw_Terminal_01x08 J2
+L Peavey_5150-rescue:Screw_Terminal_01x08-Connector J2
 U 1 1 5E008868
 P 2250 14050
 F 0 "J2" H 2168 14567 50  0000 C CNN
@@ -1539,7 +1417,7 @@ N
 Text Label 22500 2200 2    50   ~ 0
 MUTE
 $Comp
-L Valve:ECC83 V3
+L Peavey_5150-rescue:ECC83-Valve V3
 U 1 1 5E2A4734
 P 25200 3150
 F 0 "V3" H 24850 2950 50  0000 L CNN
@@ -1552,12 +1430,12 @@ $EndComp
 Wire Wire Line
 	24900 3150 24650 3150
 $Comp
-L Device:R_US R79
+L Peavey_5150-rescue:R_US-Device R79
 U 1 1 5E2E0B80
 P 24650 3500
 F 0 "R79" H 24700 3450 50  0000 L CNN
 F 1 "1M 1/4W" H 24700 3550 50  0000 L CNN
-F 2 "" V 24690 3490 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 24690 3490 50  0001 C CNN
 F 3 "~" H 24650 3500 50  0001 C CNN
 	1    24650 3500
 	-1   0    0    1   
@@ -1568,12 +1446,12 @@ Connection ~ 24650 3150
 Wire Wire Line
 	24650 3150 24250 3150
 $Comp
-L Device:R_US R80
+L Peavey_5150-rescue:R_US-Device R80
 U 1 1 5E388BCF
 P 25100 4000
 F 0 "R80" H 25150 3950 50  0000 L CNN
 F 1 "1K 1/4W" H 25150 4050 50  0000 L CNN
-F 2 "" V 25140 3990 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 25140 3990 50  0001 C CNN
 F 3 "~" H 25100 4000 50  0001 C CNN
 	1    25100 4000
 	-1   0    0    1   
@@ -1581,12 +1459,12 @@ $EndComp
 Wire Wire Line
 	25100 3850 25100 3650
 $Comp
-L Device:R_US R16
+L Peavey_5150-rescue:R_US-Device R16
 U 1 1 5E3C1D83
 P 25100 4500
 F 0 "R16" H 25150 4450 50  0000 L CNN
 F 1 "100KW1" H 25150 4550 50  0000 L CNN
-F 2 "" V 25140 4490 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_1W" V 25140 4490 50  0001 C CNN
 F 3 "~" H 25100 4500 50  0001 C CNN
 	1    25100 4500
 	-1   0    0    1   
@@ -1601,7 +1479,7 @@ Connection ~ 25100 4250
 Wire Wire Line
 	25100 4250 25100 4150
 $Comp
-L power:Earth_Protective #PWR068
+L Peavey_5150-rescue:Earth_Protective-power #PWR068
 U 1 1 5E432A82
 P 25100 4750
 F 0 "#PWR068" H 25350 4500 50  0001 C CNN
@@ -1616,7 +1494,7 @@ Wire Wire Line
 Wire Wire Line
 	23800 4750 23800 3800
 $Comp
-L power:Earth_Protective #PWR063
+L Peavey_5150-rescue:Earth_Protective-power #PWR063
 U 1 1 5E43D71F
 P 23800 4750
 F 0 "#PWR063" H 24050 4500 50  0001 C CNN
@@ -1627,12 +1505,12 @@ F 3 "~" H 23800 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R81
+L Peavey_5150-rescue:R_US-Device R81
 U 1 1 5E422989
 P 23800 3650
 F 0 "R81" H 23850 3600 50  0000 L CNN
 F 1 "2.2M 1/4W" H 23850 3700 50  0000 L CNN
-F 2 "" V 23840 3640 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 23840 3640 50  0001 C CNN
 F 3 "~" H 23800 3650 50  0001 C CNN
 	1    23800 3650
 	-1   0    0    1   
@@ -1643,7 +1521,7 @@ U 1 1 5E550E1D
 P 25500 3650
 F 0 "C53" V 25650 3550 50  0000 L CNN
 F 1 "0.33uF 400v" V 25350 3500 50  0000 L CNN
-F 2 "" H 25500 3650 50  0001 C CNN
+F 2 "Peavey-EVH5150:C_UNIVERSAL" H 25500 3650 50  0001 C CNN
 F 3 "" H 25500 3650 50  0001 C CNN
 	1    25500 3650
 	0    -1   -1   0   
@@ -1654,18 +1532,18 @@ Connection ~ 25100 3650
 Wire Wire Line
 	25100 3650 25100 3550
 $Comp
-L Device:R_US R103
+L Peavey_5150-rescue:R_US-Device R103
 U 1 1 5E58B5BD
 P 25800 4000
 F 0 "R103" H 25850 3950 50  0000 L CNN
 F 1 "100K 1/4W" H 25850 4050 50  0000 L CNN
-F 2 "" V 25840 3990 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 25840 3990 50  0001 C CNN
 F 3 "~" H 25800 4000 50  0001 C CNN
 	1    25800 4000
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:Earth_Protective #PWR070
+L Peavey_5150-rescue:Earth_Protective-power #PWR070
 U 1 1 5E58EE60
 P 25800 4750
 F 0 "#PWR070" H 26050 4500 50  0001 C CNN
@@ -1687,7 +1565,7 @@ U 1 1 5E63B669
 P 26200 3650
 F 0 "C65" V 26350 3550 50  0000 L CNN
 F 1 "0.33uF 400v" V 26050 3500 50  0000 L CNN
-F 2 "" H 26200 3650 50  0001 C CNN
+F 2 "Peavey-EVH5150:C_UNIVERSAL" H 26200 3650 50  0001 C CNN
 F 3 "" H 26200 3650 50  0001 C CNN
 	1    26200 3650
 	0    -1   -1   0   
@@ -1696,18 +1574,18 @@ Wire Wire Line
 	26050 3650 25800 3650
 Connection ~ 25800 3650
 $Comp
-L Device:R_US R33
+L Peavey_5150-rescue:R_US-Device R33
 U 1 1 5E675941
 P 26450 4000
 F 0 "R33" H 26500 3950 50  0000 L CNN
 F 1 "100K 1/4W" H 26500 4050 50  0000 L CNN
-F 2 "" V 26490 3990 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 26490 3990 50  0001 C CNN
 F 3 "~" H 26450 4000 50  0001 C CNN
 	1    26450 4000
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:Earth_Protective #PWR073
+L Peavey_5150-rescue:Earth_Protective-power #PWR073
 U 1 1 5E676C5F
 P 26450 4750
 F 0 "#PWR073" H 26700 4500 50  0001 C CNN
@@ -1766,12 +1644,12 @@ Wire Wire Line
 Wire Wire Line
 	27250 5900 27150 5900
 $Comp
-L Device:R_US R160
+L Peavey_5150-rescue:R_US-Device R160
 U 1 1 5E76CB0C
 P 27650 3800
 F 0 "R160" H 27700 3750 50  0000 L CNN
 F 1 "1M 1/4W" H 27700 3850 50  0000 L CNN
-F 2 "" V 27690 3790 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 27690 3790 50  0001 C CNN
 F 3 "~" H 27650 3800 50  0001 C CNN
 	1    27650 3800
 	1    0    0    1   
@@ -1781,12 +1659,12 @@ Wire Wire Line
 Wire Wire Line
 	27650 3550 27650 3650
 $Comp
-L Device:R_US R161
+L Peavey_5150-rescue:R_US-Device R161
 U 1 1 5E7A94AC
 P 27650 4700
 F 0 "R161" H 27700 4650 50  0000 L CNN
 F 1 "1M 1/4W" H 27700 4750 50  0000 L CNN
-F 2 "" V 27690 4690 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 27690 4690 50  0001 C CNN
 F 3 "~" H 27650 4700 50  0001 C CNN
 	1    27650 4700
 	1    0    0    1   
@@ -1876,7 +1754,7 @@ Wire Wire Line
 Wire Wire Line
 	29000 5300 29000 5200
 $Comp
-L power:Earth_Protective #PWR077
+L Peavey_5150-rescue:Earth_Protective-power #PWR077
 U 1 1 5ED16283
 P 29000 5400
 F 0 "#PWR077" H 29250 5150 50  0001 C CNN
@@ -1897,18 +1775,18 @@ Connection ~ 28250 4750
 Wire Wire Line
 	21150 5100 21150 5000
 $Comp
-L Device:R_US R85
+L Peavey_5150-rescue:R_US-Device R85
 U 1 1 5EE6A5DD
 P 26450 6750
 F 0 "R85" H 26500 6700 50  0000 L CNN
 F 1 "220K 1/4W" H 26500 6800 50  0000 L CNN
-F 2 "" V 26490 6740 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 26490 6740 50  0001 C CNN
 F 3 "~" H 26450 6750 50  0001 C CNN
 	1    26450 6750
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:Earth_Protective #PWR074
+L Peavey_5150-rescue:Earth_Protective-power #PWR074
 U 1 1 5EE6B38B
 P 26450 7650
 F 0 "#PWR074" H 26700 7400 50  0001 C CNN
@@ -1926,7 +1804,7 @@ U 1 1 5EEADEF4
 P 26200 6350
 F 0 "C11" V 26350 6250 50  0000 L CNN
 F 1 "0.047uF 450V" V 26050 6200 50  0000 L CNN
-F 2 "" H 26200 6350 50  0001 C CNN
+F 2 "Peavey-EVH5150:C_UNIVERSAL" H 26200 6350 50  0001 C CNN
 F 3 "" H 26200 6350 50  0001 C CNN
 	1    26200 6350
 	0    -1   -1   0   
@@ -1936,18 +1814,18 @@ Wire Wire Line
 Wire Wire Line
 	26450 6350 26350 6350
 $Comp
-L Device:R_US R26
+L Peavey_5150-rescue:R_US-Device R26
 U 1 1 5EEF251A
 P 25700 6750
 F 0 "R26" H 25750 6700 50  0000 L CNN
 F 1 "1M 1/4W" H 25750 6800 50  0000 L CNN
-F 2 "" V 25740 6740 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 25740 6740 50  0001 C CNN
 F 3 "~" H 25700 6750 50  0001 C CNN
 	1    25700 6750
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:Earth_Protective #PWR071
+L Peavey_5150-rescue:Earth_Protective-power #PWR071
 U 1 1 5EEF2524
 P 25700 7650
 F 0 "#PWR071" H 25950 7400 50  0001 C CNN
@@ -1989,7 +1867,7 @@ Master
 Wire Wire Line
 	24000 7650 24000 7350
 $Comp
-L power:Earth_Protective #PWR066
+L Peavey_5150-rescue:Earth_Protective-power #PWR066
 U 1 1 5F3154FB
 P 24000 7650
 F 0 "#PWR066" H 24250 7400 50  0001 C CNN
@@ -2009,7 +1887,7 @@ U 1 1 5F2CA2A7
 P 24000 7200
 F 0 "VR13" H 24200 7250 50  0000 L CNN
 F 1 "1M" H 24200 7150 50  0000 L CNN
-F 2 "" H 24000 7200 50  0001 C CNN
+F 2 "Peavey-EVH5150:Potentiometer_Alpha_Single_Horizontal" H 24000 7200 50  0001 C CNN
 F 3 "" H 24000 7200 50  0001 C CNN
 	1    24000 7200
 	-1   0    0    -1  
@@ -2035,12 +1913,12 @@ Wire Wire Line
 Wire Wire Line
 	25000 5350 25000 5450
 $Comp
-L Device:R_US R5
+L Peavey_5150-rescue:R_US-Device R5
 U 1 1 5F1AC298
 P 25000 5600
 F 0 "R5" H 25050 5550 50  0000 L CNN
 F 1 "68K 1/4W" H 25050 5650 50  0000 L CNN
-F 2 "" V 25040 5590 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_1W" V 25040 5590 50  0001 C CNN
 F 3 "~" H 25000 5600 50  0001 C CNN
 	1    25000 5600
 	1    0    0    1   
@@ -2058,7 +1936,7 @@ Wire Wire Line
 Wire Wire Line
 	24900 7350 25100 7350
 $Comp
-L power:Earth_Protective #PWR069
+L Peavey_5150-rescue:Earth_Protective-power #PWR069
 U 1 1 5F0928FC
 P 25100 7650
 F 0 "#PWR069" H 25350 7400 50  0001 C CNN
@@ -2075,12 +1953,12 @@ Wire Wire Line
 Wire Wire Line
 	25100 6950 25100 6850
 $Comp
-L Device:R_US R14
+L Peavey_5150-rescue:R_US-Device R14
 U 1 1 5F04977C
 P 25100 7100
 F 0 "R14" H 25050 7050 50  0000 R CNN
 F 1 "3.3K 1/4W" H 25050 7150 50  0000 R CNN
-F 2 "" V 25140 7090 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 25140 7090 50  0001 C CNN
 F 3 "~" H 25100 7100 50  0001 C CNN
 	1    25100 7100
 	-1   0    0    1   
@@ -2091,13 +1969,13 @@ U 1 1 5F049772
 P 24900 7100
 F 0 "C158" H 24850 7200 50  0000 R CNN
 F 1 "0.0047uF 50v" H 24850 7000 50  0000 R CNN
-F 2 "" H 24900 7100 50  0001 C CNN
+F 2 "Peavey-EVH5150:C_Rect_L7.2mm_W3.0mm_P5.00mm_Wima_Slim" H 24900 7100 50  0001 C CNN
 F 3 "" H 24900 7100 50  0001 C CNN
 	1    24900 7100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Valve:ECC83 V3
+L Peavey_5150-rescue:ECC83-Valve V3
 U 2 1 5F002D78
 P 25000 6350
 F 0 "V3" H 24650 6150 50  0000 L CNN
@@ -2135,7 +2013,7 @@ Wire Wire Line
 	22350 7550 22450 7550
 Connection ~ 22450 7550
 $Comp
-L power:Earth_Protective #PWR059
+L Peavey_5150-rescue:Earth_Protective-power #PWR059
 U 1 1 5F6D6705
 P 22450 7650
 F 0 "#PWR059" H 22700 7400 50  0001 C CNN
@@ -2148,7 +2026,7 @@ $EndComp
 Wire Wire Line
 	22450 7650 22450 7550
 $Comp
-L Valve:ECC83 V1
+L Peavey_5150-rescue:ECC83-Valve V1
 U 3 1 5E126BD3
 P 18050 17600
 F 0 "V1" H 17700 17400 50  0000 L CNN
@@ -2159,7 +2037,7 @@ F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 18050 17600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Valve:ECC83 V2
+L Peavey_5150-rescue:ECC83-Valve V2
 U 3 1 5E149654
 P 18700 17600
 F 0 "V2" H 18350 17400 50  0000 L CNN
@@ -2170,7 +2048,7 @@ F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 18700 17600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Valve:ECC83 V3
+L Peavey_5150-rescue:ECC83-Valve V3
 U 3 1 5E14A8A6
 P 19350 17600
 F 0 "V3" H 19000 17400 50  0000 L CNN
@@ -2181,7 +2059,7 @@ F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 19350 17600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Valve:ECC83 V5
+L Peavey_5150-rescue:ECC83-Valve V5
 U 3 1 5E14A8B0
 P 20000 17600
 F 0 "V5" H 19650 17400 50  0000 L CNN
@@ -2215,7 +2093,7 @@ Connection ~ 17950 18150
 Wire Wire Line
 	18150 18050 18150 18250
 $Comp
-L power:GND #PWR052
+L Peavey_5150-rescue:GND-power #PWR052
 U 1 1 5E367783
 P 17850 18350
 F 0 "#PWR052" H 17850 18100 50  0001 C CNN
@@ -2240,7 +2118,7 @@ Connection ~ 18800 18250
 Wire Wire Line
 	18800 18250 18150 18250
 $Comp
-L power:Earth #PWR054
+L Peavey_5150-rescue:Earth-power #PWR054
 U 1 1 5E4FAAC3
 P 18050 19100
 F 0 "#PWR054" H 18050 18850 50  0001 C CNN
@@ -2251,7 +2129,7 @@ F 3 "~" H 18050 19100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NC_Small JP1
+L Peavey_5150-rescue:Jumper_NC_Small-Device JP1
 U 1 1 5E5509C9
 P 18050 18900
 F 0 "JP1" V 18096 18853 50  0000 R CNN
@@ -2269,7 +2147,7 @@ Wire Wire Line
 	17850 18250 17850 18350
 Connection ~ 18150 18250
 $Comp
-L power:Earth #PWR056
+L Peavey_5150-rescue:Earth-power #PWR056
 U 1 1 5E73E12A
 P 18700 19100
 F 0 "#PWR056" H 18700 18850 50  0001 C CNN
@@ -2280,7 +2158,7 @@ F 3 "~" H 18700 19100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NC_Small JP2
+L Peavey_5150-rescue:Jumper_NC_Small-Device JP2
 U 1 1 5E73E134
 P 18700 18900
 F 0 "JP2" V 18746 18853 50  0000 R CNN
@@ -2295,7 +2173,7 @@ Wire Wire Line
 Wire Wire Line
 	18700 18050 18700 18650
 $Comp
-L power:Earth_Protective #PWR060
+L Peavey_5150-rescue:Earth_Protective-power #PWR060
 U 1 1 5E790D6C
 P 19350 19100
 F 0 "#PWR060" H 19600 18850 50  0001 C CNN
@@ -2306,7 +2184,7 @@ F 3 "~" H 19350 19000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NC_Small JP3
+L Peavey_5150-rescue:Jumper_NC_Small-Device JP3
 U 1 1 5E7924B7
 P 19350 18900
 F 0 "JP3" V 19396 18853 50  0000 R CNN
@@ -2321,7 +2199,7 @@ Wire Wire Line
 Wire Wire Line
 	19350 18800 19350 18650
 $Comp
-L power:Earth_Protective #PWR064
+L Peavey_5150-rescue:Earth_Protective-power #PWR064
 U 1 1 5E839DFB
 P 20000 19100
 F 0 "#PWR064" H 20250 18850 50  0001 C CNN
@@ -2332,7 +2210,7 @@ F 3 "~" H 20000 19000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NC_Small JP4
+L Peavey_5150-rescue:Jumper_NC_Small-Device JP4
 U 1 1 5E839E05
 P 20000 18900
 F 0 "JP4" V 20046 18853 50  0000 R CNN
@@ -2353,7 +2231,7 @@ Wire Notes Line
 Text Notes 17150 17250 0    50   ~ 10
 Tube heat (put jumper for 6N2P)
 $Comp
-L Device:R_US R49
+L Peavey_5150-rescue:R_US-Device R49
 U 1 1 5EA995E6
 P 25350 14450
 F 0 "R49" H 25400 14400 50  0000 L CNN
@@ -2364,7 +2242,7 @@ F 3 "~" H 25350 14450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_US R46
+L Peavey_5150-rescue:R_US-Device R46
 U 1 1 5EACFB5E
 P 23150 14450
 F 0 "R46" H 23200 14400 50  0000 L CNN
@@ -2415,7 +2293,7 @@ Wire Wire Line
 	24950 15500 25350 15500
 Connection ~ 25350 15500
 $Comp
-L power:GND #PWR081
+L Peavey_5150-rescue:GND-power #PWR081
 U 1 1 5E7C6F4A
 P 27350 16300
 F 0 "#PWR081" H 27350 16050 50  0001 C CNN
@@ -2426,7 +2304,7 @@ F 3 "" H 27350 16300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:BC847 Q4
+L Peavey_5150-rescue:BC847-Transistor_BJT Q4
 U 1 1 5E7C6F54
 P 27250 15800
 F 0 "Q4" H 27441 15846 50  0000 L CNN
@@ -2439,7 +2317,7 @@ $EndComp
 Wire Wire Line
 	27350 16300 27350 16000
 $Comp
-L Device:R_US R50
+L Peavey_5150-rescue:R_US-Device R50
 U 1 1 5E7C6F5F
 P 26700 15800
 F 0 "R50" V 26600 15800 50  0000 C CNN
@@ -2450,7 +2328,7 @@ F 3 "~" H 26700 15800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R51
+L Peavey_5150-rescue:R_US-Device R51
 U 1 1 5E7C6F69
 P 26950 16050
 F 0 "R51" H 27000 16000 50  0000 L CNN
@@ -2468,7 +2346,7 @@ Connection ~ 26950 15800
 Wire Wire Line
 	26950 15800 26850 15800
 $Comp
-L power:GND #PWR080
+L Peavey_5150-rescue:GND-power #PWR080
 U 1 1 5E7C6F77
 P 26950 16300
 F 0 "#PWR080" H 26950 16050 50  0001 C CNN
@@ -2485,7 +2363,7 @@ SEND_RETURN
 Wire Wire Line
 	26550 15800 26450 15800
 $Comp
-L Device:R_US R52
+L Peavey_5150-rescue:R_US-Device R52
 U 1 1 5E7C6F84
 P 27350 14450
 F 0 "R52" H 27400 14400 50  0000 L CNN
@@ -2529,7 +2407,7 @@ F 3 "" H 21700 18000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R68
+L Peavey_5150-rescue:R_US-Device R68
 U 1 1 5EB1176E
 P 17700 14550
 F 0 "R68" H 17650 14500 50  0000 R CNN
@@ -2540,7 +2418,7 @@ F 3 "~" H 17700 14550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_US R42
+L Peavey_5150-rescue:R_US-Device R42
 U 1 1 5EB15442
 P 17350 14550
 F 0 "R42" H 17300 14500 50  0000 R CNN
@@ -2551,7 +2429,7 @@ F 3 "~" H 17350 14550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3V3 #PWR051
+L Peavey_5150-rescue:+3V3-power #PWR051
 U 1 1 5EB15CFE
 P 17700 14000
 F 0 "#PWR051" H 17700 13850 50  0001 C CNN
@@ -2562,7 +2440,7 @@ F 3 "" H 17700 14000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR048
+L Peavey_5150-rescue:+3V3-power #PWR048
 U 1 1 5EB17927
 P 17350 14000
 F 0 "#PWR048" H 17350 13850 50  0001 C CNN
@@ -2589,7 +2467,7 @@ FS1
 Text Label 17250 14900 2    50   ~ 0
 FS2
 $Comp
-L power:GND #PWR072
+L Peavey_5150-rescue:GND-power #PWR072
 U 1 1 5EC94590
 P 22150 18350
 F 0 "#PWR072" H 22150 18100 50  0001 C CNN
@@ -2631,7 +2509,7 @@ FS1
 Text Label 23000 17800 0    50   ~ 0
 FS2
 $Comp
-L power:Earth_Protective #PWR040
+L Peavey_5150-rescue:Earth_Protective-power #PWR040
 U 1 1 5E166149
 P 2700 12700
 F 0 "#PWR040" H 2950 12450 50  0001 C CNN
@@ -2642,7 +2520,7 @@ F 3 "~" H 2700 12600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR037
+L Peavey_5150-rescue:Earth-power #PWR037
 U 1 1 5E166622
 P 2200 12700
 F 0 "#PWR037" H 2200 12450 50  0001 C CNN
@@ -2655,12 +2533,12 @@ $EndComp
 Text Label 3200 12600 0    50   ~ 0
 GNDPWR
 $Comp
-L Device:R_US R39
+L Peavey_5150-rescue:R_US-Device R39
 U 1 1 5E167781
 P 2950 12600
 F 0 "R39" V 2850 12600 50  0000 C CNN
 F 1 "47R1W" V 3050 12600 50  0000 C CNN
-F 2 "" V 2990 12590 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_1W" V 2990 12590 50  0001 C CNN
 F 3 "~" H 2950 12600 50  0001 C CNN
 	1    2950 12600
 	0    1    1    0   
@@ -2672,12 +2550,12 @@ Wire Wire Line
 Wire Wire Line
 	2700 12600 2700 12700
 $Comp
-L Device:R_US R36
+L Peavey_5150-rescue:R_US-Device R36
 U 1 1 5E22F05E
 P 2450 12600
 F 0 "R36" V 2350 12600 50  0000 C CNN
 F 1 "47R1W" V 2550 12600 50  0000 C CNN
-F 2 "" V 2490 12590 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_1W" V 2490 12590 50  0001 C CNN
 F 3 "~" H 2450 12600 50  0001 C CNN
 	1    2450 12600
 	0    1    1    0   
@@ -2690,7 +2568,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 12600 2200 12700
 $Comp
-L Switch:SW_Push SW2
+L Peavey_5150-rescue:SW_Push-Switch SW2
 U 1 1 5E2FC3AC
 P 24100 18300
 F 0 "SW2" V 24054 18448 50  0000 L CNN
@@ -2701,7 +2579,7 @@ F 3 "~" H 24100 18500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Switch:SW_Push SW3
+L Peavey_5150-rescue:SW_Push-Switch SW3
 U 1 1 5E2FC968
 P 27300 18250
 F 0 "SW3" V 27254 18398 50  0000 L CNN
@@ -2712,7 +2590,7 @@ F 3 "~" H 27300 18450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Switch:SW_Push SW4
+L Peavey_5150-rescue:SW_Push-Switch SW4
 U 1 1 5E2FCF10
 P 29350 18300
 F 0 "SW4" V 29304 18448 50  0000 L CNN
@@ -2723,7 +2601,7 @@ F 3 "~" H 29350 18500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:CP1 C29
+L Peavey_5150-rescue:CP1-Device C29
 U 1 1 5E5D1A1F
 P 12400 15050
 F 0 "C29" H 12500 15100 50  0000 L CNN
@@ -2744,7 +2622,7 @@ Connection ~ 12400 14800
 Wire Wire Line
 	12400 14800 11950 14800
 $Comp
-L Regulator_Linear:LT1129-3.3_SOT223 U2
+L Peavey_5150-rescue:LT1129-3.3_SOT223-Regulator_Linear U2
 U 1 1 5E37AA6F
 P 15050 17550
 F 0 "U2" H 15050 17792 50  0000 C CNN
@@ -2755,7 +2633,7 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/112935f
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1 C30
+L Peavey_5150-rescue:CP1-Device C30
 U 1 1 5E607A3D
 P 13400 14550
 F 0 "C30" H 13500 14600 50  0000 L CNN
@@ -2766,7 +2644,7 @@ F 3 "~" H 13400 14550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R38
+L Peavey_5150-rescue:R_US-Device R38
 U 1 1 5E60CBF9
 P 13850 14300
 F 0 "R38" V 13750 14300 50  0000 C CNN
@@ -2781,7 +2659,7 @@ Wire Wire Line
 Wire Wire Line
 	13400 14400 13400 14300
 $Comp
-L Device:CP1 C33
+L Peavey_5150-rescue:CP1-Device C33
 U 1 1 5E75E672
 P 14250 14550
 F 0 "C33" H 14350 14600 50  0000 L CNN
@@ -2792,7 +2670,7 @@ F 3 "~" H 14250 14550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R35
+L Peavey_5150-rescue:R_US-Device R35
 U 1 1 5E75F963
 P 12400 14300
 F 0 "R35" V 12300 14300 50  0000 C CNN
@@ -2806,7 +2684,7 @@ Wire Wire Line
 	13400 14300 13300 14300
 Connection ~ 13400 14300
 $Comp
-L power:Earth_Protective #PWR036
+L Peavey_5150-rescue:Earth_Protective-power #PWR036
 U 1 1 5E924C43
 P 13400 14800
 F 0 "#PWR036" H 13650 14550 50  0001 C CNN
@@ -2819,7 +2697,7 @@ $EndComp
 Wire Wire Line
 	13400 14800 13400 14700
 $Comp
-L power:Earth #PWR042
+L Peavey_5150-rescue:Earth-power #PWR042
 U 1 1 5E997673
 P 14250 14800
 F 0 "#PWR042" H 14250 14550 50  0001 C CNN
@@ -2834,7 +2712,7 @@ Wire Wire Line
 Wire Wire Line
 	13400 13250 13400 14300
 $Comp
-L power:GND #PWR044
+L Peavey_5150-rescue:GND-power #PWR044
 U 1 1 5EBFDBD4
 P 15050 18050
 F 0 "#PWR044" H 15050 17800 50  0001 C CNN
@@ -2845,7 +2723,7 @@ F 3 "" H 15050 18050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR045
+L Peavey_5150-rescue:+3V3-power #PWR045
 U 1 1 5EC01E4E
 P 15450 17450
 F 0 "#PWR045" H 15450 17300 50  0001 C CNN
@@ -2880,7 +2758,7 @@ Connection ~ 15450 17550
 Wire Wire Line
 	15450 17650 15450 17550
 $Comp
-L power:GND #PWR046
+L Peavey_5150-rescue:GND-power #PWR046
 U 1 1 5EFCA80A
 P 15450 18050
 F 0 "#PWR046" H 15450 17800 50  0001 C CNN
@@ -2909,7 +2787,7 @@ Connection ~ 14650 17550
 Wire Wire Line
 	14650 17550 14550 17550
 $Comp
-L power:GND #PWR043
+L Peavey_5150-rescue:GND-power #PWR043
 U 1 1 5F1AAF4D
 P 14650 18050
 F 0 "#PWR043" H 14650 17800 50  0001 C CNN
@@ -2932,7 +2810,7 @@ Wire Notes Line
 Wire Notes Line
 	17000 13600 21300 13600
 $Comp
-L power:Earth_Protective #PWR082
+L Peavey_5150-rescue:Earth_Protective-power #PWR082
 U 1 1 5F86629B
 P 4850 20650
 F 0 "#PWR082" H 5100 20400 50  0001 C CNN
@@ -2943,7 +2821,7 @@ F 3 "~" H 4850 20550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG01
+L Peavey_5150-rescue:PWR_FLAG-power #FLG01
 U 1 1 5F8676CC
 P 4850 20550
 F 0 "#FLG01" H 4850 20625 50  0001 C CNN
@@ -2956,7 +2834,7 @@ $EndComp
 Wire Wire Line
 	4850 20550 4850 20650
 $Comp
-L power:GND #PWR0101
+L Peavey_5150-rescue:GND-power #PWR0101
 U 1 1 5F8E8EC4
 P 5350 20650
 F 0 "#PWR0101" H 5350 20400 50  0001 C CNN
@@ -2967,7 +2845,7 @@ F 3 "" H 5350 20650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0101
+L Peavey_5150-rescue:PWR_FLAG-power #FLG0101
 U 1 1 5F8EA219
 P 5350 20550
 F 0 "#FLG0101" H 5350 20625 50  0001 C CNN
@@ -3004,7 +2882,7 @@ V2+
 Text Label 25000 5350 0    50   ~ 0
 V2+
 $Comp
-L Relay_SolidState:TLP222A U4
+L Peavey_5150-rescue:TLP222A-Relay_SolidState U4
 U 1 1 60462920
 P 23400 2300
 F 0 "U4" H 23400 2625 50  0000 C CNN
@@ -3017,7 +2895,7 @@ $EndComp
 Wire Wire Line
 	23700 2400 23800 2400
 $Comp
-L power:Earth_Protective #PWR0102
+L Peavey_5150-rescue:Earth_Protective-power #PWR0102
 U 1 1 604EB57F
 P 24100 2300
 F 0 "#PWR0102" H 24350 2050 50  0001 C CNN
@@ -3034,7 +2912,7 @@ Wire Wire Line
 Wire Wire Line
 	23800 2400 23800 3150
 $Comp
-L power:GND #PWR0103
+L Peavey_5150-rescue:GND-power #PWR0103
 U 1 1 6066DEFA
 P 23000 2500
 F 0 "#PWR0103" H 23000 2250 50  0001 C CNN
@@ -3049,7 +2927,7 @@ Wire Wire Line
 Wire Wire Line
 	23000 2400 23000 2500
 $Comp
-L Device:R_US R53
+L Peavey_5150-rescue:R_US-Device R53
 U 1 1 606EFCA9
 P 22850 2200
 F 0 "R53" V 22750 2200 50  0000 C CNN
@@ -3070,7 +2948,7 @@ MUTE
 Wire Wire Line
 	19450 15000 19350 15000
 $Comp
-L power:+3V3 #PWR0104
+L Peavey_5150-rescue:+3V3-power #PWR0104
 U 1 1 60AF20CA
 P 24100 17500
 F 0 "#PWR0104" H 24100 17350 50  0001 C CNN
@@ -3081,7 +2959,7 @@ F 3 "" H 24100 17500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R54
+L Peavey_5150-rescue:R_US-Device R54
 U 1 1 60AF441A
 P 24100 17750
 F 0 "R54" H 24050 17700 50  0000 R CNN
@@ -3094,7 +2972,7 @@ $EndComp
 Wire Wire Line
 	24100 17600 24100 17500
 $Comp
-L power:+3V3 #PWR0105
+L Peavey_5150-rescue:+3V3-power #PWR0105
 U 1 1 60C79D6E
 P 27300 17450
 F 0 "#PWR0105" H 27300 17300 50  0001 C CNN
@@ -3105,7 +2983,7 @@ F 3 "" H 27300 17450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R55
+L Peavey_5150-rescue:R_US-Device R55
 U 1 1 60C79D78
 P 27300 17700
 F 0 "R55" H 27250 17650 50  0000 R CNN
@@ -3118,7 +2996,7 @@ $EndComp
 Wire Wire Line
 	27300 17550 27300 17450
 $Comp
-L power:+3V3 #PWR0107
+L Peavey_5150-rescue:+3V3-power #PWR0107
 U 1 1 60D038B3
 P 29350 17500
 F 0 "#PWR0107" H 29350 17350 50  0001 C CNN
@@ -3129,7 +3007,7 @@ F 3 "" H 29350 17500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R57
+L Peavey_5150-rescue:R_US-Device R57
 U 1 1 60D038BD
 P 29350 17750
 F 0 "R57" H 29300 17700 50  0000 R CNN
@@ -3148,7 +3026,7 @@ Wire Wire Line
 Wire Wire Line
 	24100 18100 24100 18000
 $Comp
-L power:GND #PWR0108
+L Peavey_5150-rescue:GND-power #PWR0108
 U 1 1 60F91BE0
 P 24100 18700
 F 0 "#PWR0108" H 24100 18450 50  0001 C CNN
@@ -3161,7 +3039,7 @@ $EndComp
 Wire Wire Line
 	24100 18700 24100 18600
 $Comp
-L power:GND #PWR0109
+L Peavey_5150-rescue:GND-power #PWR0109
 U 1 1 61015DCB
 P 27300 18650
 F 0 "#PWR0109" H 27300 18400 50  0001 C CNN
@@ -3172,7 +3050,7 @@ F 3 "" H 27300 18650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0111
+L Peavey_5150-rescue:GND-power #PWR0111
 U 1 1 61016ACE
 P 29350 18700
 F 0 "#PWR0111" H 29350 18450 50  0001 C CNN
@@ -3293,7 +3171,7 @@ Wire Wire Line
 Wire Wire Line
 	18150 15400 18050 15400
 $Comp
-L Device:R_US R61
+L Peavey_5150-rescue:R_US-Device R61
 U 1 1 61E91DE7
 P 29950 17750
 F 0 "R61" H 29900 17700 50  0000 R CNN
@@ -3308,7 +3186,7 @@ SEND_RETURN
 Wire Wire Line
 	29950 17600 29950 17500
 $Comp
-L Device:LED D6
+L Peavey_5150-rescue:LED-Device D6
 U 1 1 61F20603
 P 29950 18150
 F 0 "D6" V 29989 18032 50  0000 R CNN
@@ -3319,7 +3197,7 @@ F 3 "~" H 29950 18150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR086
+L Peavey_5150-rescue:GND-power #PWR086
 U 1 1 61F23093
 P 29950 18700
 F 0 "#PWR086" H 29950 18450 50  0001 C CNN
@@ -3334,7 +3212,7 @@ Wire Wire Line
 Wire Wire Line
 	29950 18000 29950 17900
 $Comp
-L Device:R_US R58
+L Peavey_5150-rescue:R_US-Device R58
 U 1 1 623C5EE6
 P 25350 17750
 F 0 "R58" H 25300 17700 50  0000 R CNN
@@ -3347,7 +3225,7 @@ $EndComp
 Wire Wire Line
 	25350 17600 25350 17500
 $Comp
-L power:GND #PWR083
+L Peavey_5150-rescue:GND-power #PWR083
 U 1 1 623C5EFB
 P 25350 18700
 F 0 "#PWR083" H 25350 18450 50  0001 C CNN
@@ -3372,7 +3250,7 @@ Wire Wire Line
 Text Label 5850 20650 2    50   ~ 0
 HEAT+
 $Comp
-L power:PWR_FLAG #FLG0102
+L Peavey_5150-rescue:PWR_FLAG-power #FLG0102
 U 1 1 6273B440
 P 5850 20550
 F 0 "#FLG0102" H 5850 20625 50  0001 C CNN
@@ -3396,7 +3274,7 @@ Connection ~ 18050 18650
 Wire Wire Line
 	18050 18650 18050 18800
 $Comp
-L power:PWR_FLAG #FLG0105
+L Peavey_5150-rescue:PWR_FLAG-power #FLG0105
 U 1 1 62B4F305
 P 18950 18550
 F 0 "#FLG0105" H 18950 18625 50  0001 C CNN
@@ -3414,7 +3292,7 @@ Connection ~ 18700 18650
 Wire Wire Line
 	18700 18650 18700 18800
 $Comp
-L power:PWR_FLAG #FLG0106
+L Peavey_5150-rescue:PWR_FLAG-power #FLG0106
 U 1 1 62BE45FB
 P 19600 18550
 F 0 "#FLG0106" H 19600 18625 50  0001 C CNN
@@ -3425,7 +3303,7 @@ F 3 "~" H 19600 18550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0107
+L Peavey_5150-rescue:PWR_FLAG-power #FLG0107
 U 1 1 62BE4F47
 P 20250 18550
 F 0 "#FLG0107" H 20250 18625 50  0001 C CNN
@@ -3450,7 +3328,7 @@ Connection ~ 20000 18650
 Wire Wire Line
 	20000 18650 20000 18050
 $Comp
-L power:PWR_FLAG #FLG0109
+L Peavey_5150-rescue:PWR_FLAG-power #FLG0109
 U 1 1 62DAC889
 P 4400 20550
 F 0 "#FLG0109" H 4400 20625 50  0001 C CNN
@@ -3461,7 +3339,7 @@ F 3 "~" H 4400 20550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR0112
+L Peavey_5150-rescue:Earth-power #PWR0112
 U 1 1 62DACD73
 P 4400 20650
 F 0 "#PWR0112" H 4400 20400 50  0001 C CNN
@@ -3476,7 +3354,7 @@ Wire Wire Line
 Text Label 6350 20650 2    50   ~ 0
 HEAT_IN
 $Comp
-L power:PWR_FLAG #FLG0110
+L Peavey_5150-rescue:PWR_FLAG-power #FLG0110
 U 1 1 62E47236
 P 6350 20550
 F 0 "#FLG0110" H 6350 20625 50  0001 C CNN
@@ -3491,7 +3369,7 @@ Wire Wire Line
 Wire Wire Line
 	18050 18050 18050 18650
 $Comp
-L power:PWR_FLAG #FLG0104
+L Peavey_5150-rescue:PWR_FLAG-power #FLG0104
 U 1 1 62ABAD8D
 P 18300 18550
 F 0 "#FLG0104" H 18300 18625 50  0001 C CNN
@@ -3519,7 +3397,7 @@ Connection ~ 11950 14300
 Wire Wire Line
 	12650 14300 12550 14300
 $Comp
-L Device:D D7
+L Peavey_5150-rescue:D-Device D7
 U 1 1 601B8E6E
 P 23700 15100
 F 0 "D7" V 23654 15021 50  0000 R CNN
@@ -3538,7 +3416,7 @@ Wire Wire Line
 Wire Wire Line
 	23700 15500 23150 15500
 $Comp
-L Device:D D8
+L Peavey_5150-rescue:D-Device D8
 U 1 1 6030D710
 P 25350 15100
 F 0 "D8" V 25304 15021 50  0000 R CNN
@@ -3553,7 +3431,7 @@ Wire Wire Line
 Wire Wire Line
 	25350 14700 25350 14950
 $Comp
-L Device:D D9
+L Peavey_5150-rescue:D-Device D9
 U 1 1 6065299C
 P 27950 15100
 F 0 "D9" V 27904 15021 50  0000 R CNN
@@ -3613,12 +3491,12 @@ Wire Wire Line
 Wire Wire Line
 	4300 4300 4300 3950
 $Comp
-L Device:R_US R41
+L Peavey_5150-rescue:R_US-Device R41
 U 1 1 62AD614F
 P 4300 4450
 F 0 "R41" H 4250 4400 50  0000 R CNN
 F 1 "1M 1/4W" H 4250 4500 50  0000 R CNN
-F 2 "" V 4340 4440 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 4340 4440 50  0001 C CNN
 F 3 "~" H 4300 4450 50  0001 C CNN
 	1    4300 4450
 	-1   0    0    1   
@@ -3626,7 +3504,7 @@ $EndComp
 Wire Wire Line
 	4950 4800 4950 4700
 $Comp
-L power:Earth #PWR0113
+L Peavey_5150-rescue:Earth-power #PWR0113
 U 1 1 629E0807
 P 4950 4800
 F 0 "#PWR0113" H 4950 4550 50  0001 C CNN
@@ -3654,7 +3532,7 @@ U 1 1 627058BD
 P 4950 4450
 F 0 "VR2" H 5150 4500 50  0000 L CNN
 F 1 "1M" H 5150 4400 50  0000 L CNN
-F 2 "" H 4950 4450 50  0001 C CNN
+F 2 "Peavey-EVH5150:Potentiometer_Alpha_Single_Horizontal" H 4950 4450 50  0001 C CNN
 F 3 "" H 4950 4450 50  0001 C CNN
 	1    4950 4450
 	1    0    0    -1  
@@ -3673,12 +3551,12 @@ Wire Wire Line
 Wire Wire Line
 	6300 4050 6300 3950
 $Comp
-L Device:R_US R40
+L Peavey_5150-rescue:R_US-Device R40
 U 1 1 6243533A
 P 6300 4200
 F 0 "R40" H 6250 4150 50  0000 R CNN
 F 1 "1M" H 6250 4250 50  0000 R CNN
-F 2 "" V 6340 4190 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 6340 4190 50  0001 C CNN
 F 3 "~" H 6300 4200 50  0001 C CNN
 	1    6300 4200
 	-1   0    0    1   
@@ -3689,7 +3567,7 @@ U 1 1 62433C89
 P 5700 4200
 F 0 "C19" H 5750 4300 50  0000 L CNN
 F 1 ".001uf 50V" H 5750 4100 50  0000 L CNN
-F 2 "" H 5700 4200 50  0001 C CNN
+F 2 "Peavey-EVH5150:C_Rect_L7.2mm_W4.5mm_P5.00mm_Wima_Small" H 5700 4200 50  0001 C CNN
 F 3 "" H 5700 4200 50  0001 C CNN
 	1    5700 4200
 	1    0    0    -1  
@@ -3707,18 +3585,18 @@ U 1 1 621729EC
 P 5700 3100
 F 0 "C17" H 5750 3200 50  0000 L CNN
 F 1 ".0022uF 50v" H 5750 3000 50  0000 L CNN
-F 2 "" H 5700 3100 50  0001 C CNN
+F 2 "Peavey-EVH5150:C_Rect_L7.2mm_W3.0mm_P5.00mm_Wima_Slim" H 5700 3100 50  0001 C CNN
 F 3 "" H 5700 3100 50  0001 C CNN
 	1    5700 3100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R29
+L Peavey_5150-rescue:R_US-Device R29
 U 1 1 6208937E
 P 4950 3100
 F 0 "R29" H 4900 3050 50  0000 R CNN
 F 1 "470K 1/4W" H 4900 3150 50  0000 R CNN
-F 2 "" V 4990 3090 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 4990 3090 50  0001 C CNN
 F 3 "~" H 4950 3100 50  0001 C CNN
 	1    4950 3100
 	-1   0    0    1   
@@ -3734,7 +3612,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 4250 7050 4150
 $Comp
-L power:Earth #PWR0114
+L Peavey_5150-rescue:Earth-power #PWR0114
 U 1 1 61B0F8C5
 P 7050 4250
 F 0 "#PWR0114" H 7050 4000 50  0001 C CNN
@@ -3761,7 +3639,7 @@ U 1 1 61858F30
 P 7300 3600
 F 0 "C27" V 7450 3600 50  0000 C CNN
 F 1 "180pF 50V" V 7150 3600 50  0000 C CNN
-F 2 "" H 7300 3600 50  0001 C CNN
+F 2 "Peavey-EVH5150:C_Rect_L7.2mm_W4.5mm_P5.00mm_Wima_Small" H 7300 3600 50  0001 C CNN
 F 3 "" H 7300 3600 50  0001 C CNN
 	1    7300 3600
 	0    -1   -1   0   
@@ -3772,7 +3650,7 @@ U 1 1 618561AC
 P 7050 4000
 F 0 "VR1" H 7250 4050 50  0000 L CNN
 F 1 "1M" H 7250 3950 50  0000 L CNN
-F 2 "" H 7050 4000 50  0001 C CNN
+F 2 "Peavey-EVH5150:Potentiometer_Alpha_Single_Horizontal" H 7050 4000 50  0001 C CNN
 F 3 "" H 7050 4000 50  0001 C CNN
 	1    7050 4000
 	1    0    0    -1  
@@ -3784,12 +3662,12 @@ Wire Wire Line
 Wire Wire Line
 	7150 2600 7050 2600
 $Comp
-L Device:R_US R75
+L Peavey_5150-rescue:R_US-Device R75
 U 1 1 61300501
 P 7300 2600
 F 0 "R75" V 7200 2600 50  0000 C CNN
 F 1 "2.2M" V 7400 2600 50  0000 C CNN
-F 2 "" V 7340 2590 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 7340 2590 50  0001 C CNN
 F 3 "~" H 7300 2600 50  0001 C CNN
 	1    7300 2600
 	0    1    1    0   
@@ -3817,18 +3695,18 @@ U 1 1 60F8EB3C
 P 7500 1500
 F 0 "C13" V 7650 1500 50  0000 C CNN
 F 1 "470pF 50V" V 7350 1500 50  0000 C CNN
-F 2 "" H 7500 1500 50  0001 C CNN
+F 2 "Peavey-EVH5150:C_Rect_L7.2mm_W5.5mm_P5.00mm_Wima_Fat" H 7500 1500 50  0001 C CNN
 F 3 "" H 7500 1500 50  0001 C CNN
 	1    7500 1500
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_US R43
+L Peavey_5150-rescue:R_US-Device R43
 U 1 1 60F8DB26
 P 7500 1900
 F 0 "R43" V 7400 1900 50  0000 C CNN
 F 1 "2.2K" V 7600 1900 50  0000 C CNN
-F 2 "" V 7540 1890 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 7540 1890 50  0001 C CNN
 F 3 "~" H 7500 1900 50  0001 C CNN
 	1    7500 1900
 	0    1    1    0   
@@ -3841,7 +3719,7 @@ U 1 1 60EB3129
 P 7950 2350
 F 0 "C10" H 7850 2400 50  0000 R CNN
 F 1 "470pF 50V" H 7850 2250 50  0000 R CNN
-F 2 "" H 7950 2350 50  0001 C CNN
+F 2 "Peavey-EVH5150:C_Rect_L7.2mm_W5.5mm_P5.00mm_Wima_Fat" H 7950 2350 50  0001 C CNN
 F 3 "" H 7950 2350 50  0001 C CNN
 	1    7950 2350
 	1    0    0    -1  
@@ -3860,7 +3738,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 2600 5450 2500
 $Comp
-L power:Earth #PWR0115
+L Peavey_5150-rescue:Earth-power #PWR0115
 U 1 1 60C2BF20
 P 5450 2600
 F 0 "#PWR0115" H 5450 2350 50  0001 C CNN
@@ -3886,12 +3764,12 @@ $EndComp
 Wire Wire Line
 	6350 2500 6250 2500
 $Comp
-L Device:R_US R23
+L Peavey_5150-rescue:R_US-Device R23
 U 1 1 60A83F41
 P 6100 2500
 F 0 "R23" V 6000 2500 50  0000 C CNN
 F 1 "39K" V 6200 2500 50  0000 C CNN
-F 2 "" V 6140 2490 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 6140 2490 50  0001 C CNN
 F 3 "~" H 6100 2500 50  0001 C CNN
 	1    6100 2500
 	0    1    1    0   
@@ -3904,12 +3782,12 @@ Connection ~ 7050 2100
 Wire Wire Line
 	7050 2200 7050 2100
 $Comp
-L Device:R_US R21
+L Peavey_5150-rescue:R_US-Device R21
 U 1 1 608DB2BB
 P 7050 2350
 F 0 "R21" H 7000 2300 50  0000 R CNN
 F 1 "1M" H 7000 2400 50  0000 R CNN
-F 2 "" V 7090 2340 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 7090 2340 50  0001 C CNN
 F 3 "~" H 7050 2350 50  0001 C CNN
 	1    7050 2350
 	-1   0    0    1   
@@ -3935,18 +3813,18 @@ U 1 1 606696A9
 P 6800 1700
 F 0 "C51" V 6950 1700 50  0000 C CNN
 F 1 "270pF 50V" V 6650 1700 50  0000 C CNN
-F 2 "" H 6800 1700 50  0001 C CNN
+F 2 "Peavey-EVH5150:C_Rect_L7.2mm_W4.5mm_P5.00mm_Wima_Small" H 6800 1700 50  0001 C CNN
 F 3 "" H 6800 1700 50  0001 C CNN
 	1    6800 1700
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_US R19
+L Peavey_5150-rescue:R_US-Device R19
 U 1 1 60667865
 P 6800 2100
 F 0 "R19" V 6700 2100 50  0000 C CNN
 F 1 "470K" V 6900 2100 50  0000 C CNN
-F 2 "" V 6840 2090 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 6840 2090 50  0001 C CNN
 F 3 "~" H 6800 2100 50  0001 C CNN
 	1    6800 2100
 	0    1    1    0   
@@ -3998,23 +3876,23 @@ V1+
 Wire Wire Line
 	4050 1800 4050 2000
 $Comp
-L Device:R_US R2
+L Peavey_5150-rescue:R_US-Device R2
 U 1 1 601856F9
 P 4050 1650
 F 0 "R2" H 4000 1600 50  0000 R CNN
 F 1 "220K 1/4W" H 4000 1700 50  0000 R CNN
-F 2 "" V 4090 1640 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_1W" V 4090 1640 50  0001 C CNN
 F 3 "~" H 4050 1650 50  0001 C CNN
 	1    4050 1650
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_US R12
+L Peavey_5150-rescue:R_US-Device R12
 U 1 1 601848F9
 P 3950 3250
 F 0 "R12" H 3900 3200 50  0000 R CNN
 F 1 "1.82K 1/4W" H 3900 3300 50  0000 R CNN
-F 2 "" V 3990 3240 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical" V 3990 3240 50  0001 C CNN
 F 3 "~" H 3950 3250 50  0001 C CNN
 	1    3950 3250
 	-1   0    0    1   
@@ -4040,7 +3918,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 3400 3950 3500
 $Comp
-L power:Earth #PWR0116
+L Peavey_5150-rescue:Earth-power #PWR0116
 U 1 1 5FF23B39
 P 3950 3600
 F 0 "#PWR0116" H 3950 3350 50  0001 C CNN
@@ -4064,7 +3942,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 2500 3000 2500
 $Comp
-L Valve:ECC83 V1
+L Peavey_5150-rescue:ECC83-Valve V1
 U 1 1 5FE5AA3B
 P 4050 2500
 F 0 "V1" H 3700 2300 50  0000 L CNN
@@ -4078,12 +3956,12 @@ Connection ~ 3000 3000
 Wire Wire Line
 	3000 2900 3000 3000
 $Comp
-L Device:R_US R22
+L Peavey_5150-rescue:R_US-Device R22
 U 1 1 5FD963A9
 P 3000 2750
 F 0 "R22" H 2950 2700 50  0000 R CNN
 F 1 "68K 1/4W" H 2950 2800 50  0000 R CNN
-F 2 "" V 3040 2740 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 3040 2740 50  0001 C CNN
 F 3 "~" H 3000 2750 50  0001 C CNN
 	1    3000 2750
 	-1   0    0    1   
@@ -4095,7 +3973,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 3100 2400 3000
 $Comp
-L power:Earth #PWR0117
+L Peavey_5150-rescue:Earth-power #PWR0117
 U 1 1 5FC116EE
 P 2400 3100
 F 0 "#PWR0117" H 2400 2850 50  0001 C CNN
@@ -4106,12 +3984,12 @@ F 3 "~" H 2400 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R25
+L Peavey_5150-rescue:R_US-Device R25
 U 1 1 5FC0F716
 P 2650 3000
 F 0 "R25" V 2550 3000 50  0000 C CNN
 F 1 "1M 1/4W" V 2750 3000 50  0000 C CNN
-F 2 "" V 2690 2990 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 2690 2990 50  0001 C CNN
 F 3 "~" H 2650 3000 50  0001 C CNN
 	1    2650 3000
 	0    1    1    0   
@@ -4137,7 +4015,7 @@ U 1 1 5F60E0F3
 P 3000 4850
 F 0 "C20" H 2900 4850 50  0000 R CNN
 F 1 "39pF 50V" H 2900 4750 50  0000 R CNN
-F 2 "" H 3000 4850 50  0001 C CNN
+F 2 "Peavey-EVH5150:C_Rect_L7.2mm_W4.5mm_P5.00mm_Wima_Small" H 3000 4850 50  0001 C CNN
 F 3 "" H 3000 4850 50  0001 C CNN
 	1    3000 4850
 	1    0    0    -1  
@@ -4187,7 +4065,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 3350 2150 3350
 $Comp
-L power:Earth #PWR0118
+L Peavey_5150-rescue:Earth-power #PWR0118
 U 1 1 5ED958E9
 P 1450 5200
 F 0 "#PWR0118" H 1450 4950 50  0001 C CNN
@@ -4209,7 +4087,7 @@ F 3 "" H 950 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Valve:ECC83 V1
+L Peavey_5150-rescue:ECC83-Valve V1
 U 2 1 63209C77
 P 9300 3000
 F 0 "V1" H 8950 2800 50  0000 L CNN
@@ -4220,12 +4098,12 @@ F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 9300 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R82
+L Peavey_5150-rescue:R_US-Device R82
 U 1 1 6320FA14
 P 8450 3250
 F 0 "R82" H 8400 3200 50  0000 R CNN
 F 1 "470K" H 8400 3300 50  0000 R CNN
-F 2 "" V 8490 3240 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 8490 3240 50  0001 C CNN
 F 3 "~" H 8450 3250 50  0001 C CNN
 	1    8450 3250
 	-1   0    0    1   
@@ -4235,12 +4113,12 @@ Wire Wire Line
 Wire Wire Line
 	8450 3000 9000 3000
 $Comp
-L Device:R_US R3
+L Peavey_5150-rescue:R_US-Device R3
 U 1 1 63410383
 P 9300 2150
 F 0 "R3" H 9250 2100 50  0000 R CNN
 F 1 "100K" H 9250 2200 50  0000 R CNN
-F 2 "" V 9340 2140 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_1W" V 9340 2140 50  0001 C CNN
 F 3 "~" H 9300 2150 50  0001 C CNN
 	1    9300 2150
 	-1   0    0    1   
@@ -4256,12 +4134,12 @@ Wire Wire Line
 Wire Wire Line
 	8450 4100 8250 4100
 $Comp
-L Device:R_US R17
+L Peavey_5150-rescue:R_US-Device R17
 U 1 1 6380C8AD
 P 9200 3750
 F 0 "R17" H 9150 3700 50  0000 R CNN
 F 1 "1.82K 1/4W" H 9150 3800 50  0000 R CNN
-F 2 "" V 9240 3740 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 9240 3740 50  0001 C CNN
 F 3 "~" H 9200 3750 50  0001 C CNN
 	1    9200 3750
 	-1   0    0    1   
@@ -4287,7 +4165,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 3900 9200 4000
 $Comp
-L power:Earth #PWR0119
+L Peavey_5150-rescue:Earth-power #PWR0119
 U 1 1 6380C8C6
 P 9200 4100
 F 0 "#PWR0119" H 9200 3850 50  0001 C CNN
@@ -4323,29 +4201,29 @@ Connection ~ 9300 2500
 Wire Wire Line
 	9300 2500 9300 2300
 $Comp
-L Device:R_US R6
+L Peavey_5150-rescue:R_US-Device R6
 U 1 1 63C295D0
 P 10200 2750
 F 0 "R6" H 10150 2700 50  0000 R CNN
 F 1 "470K" H 10150 2800 50  0000 R CNN
-F 2 "" V 10240 2740 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 10240 2740 50  0001 C CNN
 F 3 "~" H 10200 2750 50  0001 C CNN
 	1    10200 2750
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_US R9
+L Peavey_5150-rescue:R_US-Device R9
 U 1 1 63C2AAA6
 P 10200 3250
 F 0 "R9" H 10150 3200 50  0000 R CNN
 F 1 "1M" H 10150 3300 50  0000 R CNN
-F 2 "" V 10240 3240 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 10240 3240 50  0001 C CNN
 F 3 "~" H 10200 3250 50  0001 C CNN
 	1    10200 3250
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:Earth #PWR0120
+L Peavey_5150-rescue:Earth-power #PWR0120
 U 1 1 63C2BD1D
 P 10200 3500
 F 0 "#PWR0120" H 10200 3250 50  0001 C CNN
@@ -4364,7 +4242,7 @@ Wire Wire Line
 Wire Wire Line
 	10200 2500 10000 2500
 $Comp
-L Valve:ECC83 V2
+L Peavey_5150-rescue:ECC83-Valve V2
 U 1 1 63F484FE
 P 11000 3000
 F 0 "V2" H 10650 2800 50  0000 L CNN
@@ -4380,12 +4258,12 @@ Connection ~ 10200 3000
 Wire Wire Line
 	10200 3000 10200 2900
 $Comp
-L Device:R_US R20
+L Peavey_5150-rescue:R_US-Device R20
 U 1 1 6416070F
 P 10500 4200
 F 0 "R20" H 10450 4150 50  0000 R CNN
 F 1 "220K" H 10450 4250 50  0000 R CNN
-F 2 "" V 10540 4190 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 10540 4190 50  0001 C CNN
 F 3 "~" H 10500 4200 50  0001 C CNN
 	1    10500 4200
 	-1   0    0    1   
@@ -4396,12 +4274,12 @@ Connection ~ 10500 3000
 Wire Wire Line
 	10500 3000 10200 3000
 $Comp
-L Device:R_US R15
+L Peavey_5150-rescue:R_US-Device R15
 U 1 1 6426DD16
 P 10900 3650
 F 0 "R15" H 10850 3600 50  0000 R CNN
 F 1 "39K" H 10850 3700 50  0000 R CNN
-F 2 "" V 10940 3640 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical" V 10940 3640 50  0001 C CNN
 F 3 "~" H 10900 3650 50  0001 C CNN
 	1    10900 3650
 	-1   0    0    1   
@@ -4409,7 +4287,7 @@ $EndComp
 Wire Wire Line
 	10900 3500 10900 3400
 $Comp
-L power:Earth #PWR0121
+L Peavey_5150-rescue:Earth-power #PWR0121
 U 1 1 6437BFA6
 P 10900 3900
 F 0 "#PWR0121" H 10900 3650 50  0001 C CNN
@@ -4449,7 +4327,7 @@ Wire Wire Line
 Wire Wire Line
 	10500 4450 10500 4350
 $Comp
-L power:Earth #PWR0122
+L Peavey_5150-rescue:Earth-power #PWR0122
 U 1 1 647BDC1B
 P 11300 5100
 F 0 "#PWR0122" H 11300 4850 50  0001 C CNN
@@ -4470,7 +4348,7 @@ Wire Wire Line
 	11300 5000 11300 5100
 NoConn ~ 10600 5100
 $Comp
-L Device:CP1 C26
+L Peavey_5150-rescue:CP1-Device C26
 U 1 1 64D15CF4
 P 9850 4200
 F 0 "C26" H 9950 4250 50  0000 L CNN
@@ -4490,18 +4368,18 @@ Wire Wire Line
 Wire Wire Line
 	9850 4900 9850 4350
 $Comp
-L Device:R_US R18
+L Peavey_5150-rescue:R_US-Device R18
 U 1 1 650568DF
 P 9850 5150
 F 0 "R18" H 9800 5100 50  0000 R CNN
 F 1 "47K" H 9800 5200 50  0000 R CNN
-F 2 "" V 9890 5140 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 9890 5140 50  0001 C CNN
 F 3 "~" H 9850 5150 50  0001 C CNN
 	1    9850 5150
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:Earth #PWR0123
+L Peavey_5150-rescue:Earth-power #PWR0123
 U 1 1 6505764E
 P 9850 5400
 F 0 "#PWR0123" H 9850 5150 50  0001 C CNN
@@ -4517,12 +4395,12 @@ Wire Wire Line
 	9850 5000 9850 4900
 Connection ~ 9850 4900
 $Comp
-L Device:R_US R1
+L Peavey_5150-rescue:R_US-Device R1
 U 1 1 65285D76
 P 11000 2150
 F 0 "R1" H 10950 2100 50  0000 R CNN
 F 1 "100K" H 10950 2200 50  0000 R CNN
-F 2 "" V 11040 2140 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_1W" V 11040 2140 50  0001 C CNN
 F 3 "~" H 11000 2150 50  0001 C CNN
 	1    11000 2150
 	-1   0    0    1   
@@ -4550,12 +4428,12 @@ Connection ~ 11000 2500
 Wire Wire Line
 	11000 2500 11000 2300
 $Comp
-L Device:R_US R11
+L Peavey_5150-rescue:R_US-Device R11
 U 1 1 656E7112
 P 12150 3250
 F 0 "R11" H 12100 3200 50  0000 R CNN
 F 1 "330K" H 12100 3300 50  0000 R CNN
-F 2 "" V 12190 3240 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 12190 3240 50  0001 C CNN
 F 3 "~" H 12150 3250 50  0001 C CNN
 	1    12150 3250
 	-1   0    0    1   
@@ -4566,7 +4444,7 @@ U 1 1 656E711C
 P 11950 3250
 F 0 "C48" H 11850 3300 50  0000 R CNN
 F 1 ".001uf 50V" H 11850 3150 50  0000 R CNN
-F 2 "" H 11950 3250 50  0001 C CNN
+F 2 "Peavey-EVH5150:C_Rect_L7.2mm_W4.5mm_P5.00mm_Wima_Small" H 11950 3250 50  0001 C CNN
 F 3 "" H 11950 3250 50  0001 C CNN
 	1    11950 3250
 	1    0    0    -1  
@@ -4583,7 +4461,7 @@ Connection ~ 11950 3000
 Wire Wire Line
 	11950 3000 11950 2500
 $Comp
-L Valve:ECC83 V2
+L Peavey_5150-rescue:ECC83-Valve V2
 U 2 1 65A3D378
 P 13100 3000
 F 0 "V2" H 12750 2800 50  0000 L CNN
@@ -4594,12 +4472,12 @@ F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 13100 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R7
+L Peavey_5150-rescue:R_US-Device R7
 U 1 1 65C79F7C
 P 12550 3000
 F 0 "R7" V 12450 3000 50  0000 C CNN
 F 1 "220K" V 12650 3000 50  0000 C CNN
-F 2 "" V 12590 2990 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 12590 2990 50  0001 C CNN
 F 3 "~" H 12550 3000 50  0001 C CNN
 	1    12550 3000
 	0    1    1    0   
@@ -4616,7 +4494,7 @@ Wire Wire Line
 Wire Wire Line
 	11950 3500 11950 3400
 $Comp
-L power:Earth #PWR0124
+L Peavey_5150-rescue:Earth-power #PWR0124
 U 1 1 660F4115
 P 11950 3600
 F 0 "#PWR0124" H 11950 3350 50  0001 C CNN
@@ -4630,12 +4508,12 @@ Wire Wire Line
 	11950 3600 11950 3500
 Connection ~ 11950 3500
 $Comp
-L Device:R_US R13
+L Peavey_5150-rescue:R_US-Device R13
 U 1 1 66215981
 P 13000 3750
 F 0 "R13" H 12950 3700 50  0000 R CNN
 F 1 "1.82K 1/4W" H 12950 3800 50  0000 R CNN
-F 2 "" V 13040 3740 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical" V 13040 3740 50  0001 C CNN
 F 3 "~" H 13000 3750 50  0001 C CNN
 	1    13000 3750
 	-1   0    0    1   
@@ -4656,7 +4534,7 @@ Wire Wire Line
 Wire Wire Line
 	13000 3900 13000 4000
 $Comp
-L power:Earth #PWR0125
+L Peavey_5150-rescue:Earth-power #PWR0125
 U 1 1 6633BA05
 P 13000 4100
 F 0 "#PWR0125" H 13000 3850 50  0001 C CNN
@@ -4681,12 +4559,12 @@ Wire Wire Line
 	13000 3600 13000 3500
 Connection ~ 13000 3500
 $Comp
-L Device:R_US R4
+L Peavey_5150-rescue:R_US-Device R4
 U 1 1 667CFBF3
 P 13100 2150
 F 0 "R4" H 13050 2100 50  0000 R CNN
 F 1 "220K 1/4W" H 13050 2200 50  0000 R CNN
-F 2 "" V 13140 2140 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_1W" V 13140 2140 50  0001 C CNN
 F 3 "~" H 13100 2150 50  0001 C CNN
 	1    13100 2150
 	-1   0    0    1   
@@ -4698,12 +4576,12 @@ V2+
 Wire Wire Line
 	13100 2000 13100 1900
 $Comp
-L Device:R_US R32
+L Peavey_5150-rescue:R_US-Device R32
 U 1 1 66B472E7
 P 13500 2500
 F 0 "R32" V 13400 2500 50  0000 C CNN
 F 1 "1M" V 13600 2500 50  0000 C CNN
-F 2 "" V 13540 2490 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 13540 2490 50  0001 C CNN
 F 3 "~" H 13500 2500 50  0001 C CNN
 	1    13500 2500
 	0    1    1    0   
@@ -4727,18 +4605,18 @@ Wire Wire Line
 Wire Wire Line
 	13750 2500 13650 2500
 $Comp
-L Device:R_US R101
+L Peavey_5150-rescue:R_US-Device R101
 U 1 1 66D9CAED
 P 14200 3350
 F 0 "R101" H 14150 3300 50  0000 R CNN
 F 1 "100K" H 14150 3400 50  0000 R CNN
-F 2 "" V 14240 3340 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 14240 3340 50  0001 C CNN
 F 3 "~" H 14200 3350 50  0001 C CNN
 	1    14200 3350
 	-1   0    0    1   
 $EndComp
 $Comp
-L Valve:ECC83 V5
+L Peavey_5150-rescue:ECC83-Valve V5
 U 2 1 66D9D83B
 P 14800 3000
 F 0 "V5" H 14450 2800 50  0000 L CNN
@@ -4749,7 +4627,7 @@ F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 14800 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR0126
+L Peavey_5150-rescue:Earth-power #PWR0126
 U 1 1 66DA153E
 P 14200 3600
 F 0 "#PWR0126" H 14200 3350 50  0001 C CNN
@@ -4771,12 +4649,12 @@ Connection ~ 14200 3000
 Wire Wire Line
 	14200 3000 14200 3200
 $Comp
-L Device:R_US R96
+L Peavey_5150-rescue:R_US-Device R96
 U 1 1 674A9B20
 P 14800 2150
 F 0 "R96" H 14750 2100 50  0000 R CNN
 F 1 "220K 1/4W" H 14750 2200 50  0000 R CNN
-F 2 "" V 14840 2140 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_1W" V 14840 2140 50  0001 C CNN
 F 3 "~" H 14800 2150 50  0001 C CNN
 	1    14800 2150
 	-1   0    0    1   
@@ -4788,12 +4666,12 @@ Wire Wire Line
 Wire Wire Line
 	14800 2600 14800 2500
 $Comp
-L Device:R_US R102
+L Peavey_5150-rescue:R_US-Device R102
 U 1 1 67708284
 P 14700 3650
 F 0 "R102" H 14650 3600 50  0000 R CNN
 F 1 "2.2K 1/4W" H 14650 3700 50  0000 R CNN
-F 2 "" V 14740 3640 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical" V 14740 3640 50  0001 C CNN
 F 3 "~" H 14700 3650 50  0001 C CNN
 	1    14700 3650
 	-1   0    0    1   
@@ -4801,7 +4679,7 @@ $EndComp
 Wire Wire Line
 	14700 3500 14700 3400
 $Comp
-L power:Earth #PWR0127
+L Peavey_5150-rescue:Earth-power #PWR0127
 U 1 1 6770828F
 P 14700 3900
 F 0 "#PWR0127" H 14700 3650 50  0001 C CNN
@@ -4814,12 +4692,12 @@ $EndComp
 Wire Wire Line
 	14700 3900 14700 3800
 $Comp
-L Device:R_US R87
+L Peavey_5150-rescue:R_US-Device R87
 U 1 1 6783A529
 P 15150 2500
 F 0 "R87" V 15050 2500 50  0000 C CNN
 F 1 "1M" V 15250 2500 50  0000 C CNN
-F 2 "" V 15190 2490 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 15190 2490 50  0001 C CNN
 F 3 "~" H 15150 2500 50  0001 C CNN
 	1    15150 2500
 	0    1    1    0   
@@ -4830,7 +4708,7 @@ Connection ~ 14800 2500
 Wire Wire Line
 	14800 2500 14800 2300
 $Comp
-L Valve:ECC83 V5
+L Peavey_5150-rescue:ECC83-Valve V5
 U 1 1 67AA09B1
 P 16600 3200
 F 0 "V5" H 16250 3000 50  0000 L CNN
@@ -4841,18 +4719,18 @@ F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 16600 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R91
+L Peavey_5150-rescue:R_US-Device R91
 U 1 1 67AA329F
 P 16000 3450
 F 0 "R91" H 15950 3400 50  0000 R CNN
 F 1 "1M" H 15950 3500 50  0000 R CNN
-F 2 "" V 16040 3440 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 16040 3440 50  0001 C CNN
 F 3 "~" H 16000 3450 50  0001 C CNN
 	1    16000 3450
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:Earth #PWR0128
+L Peavey_5150-rescue:Earth-power #PWR0128
 U 1 1 67AA32A9
 P 16000 3700
 F 0 "#PWR0128" H 16000 3450 50  0001 C CNN
@@ -4885,12 +4763,12 @@ Wire Wire Line
 	16000 3300 16000 3200
 Connection ~ 16000 3200
 $Comp
-L Device:R_US R88
+L Peavey_5150-rescue:R_US-Device R88
 U 1 1 680B3C9C
 P 16250 2700
 F 0 "R88" V 16150 2700 50  0000 C CNN
 F 1 "1M" V 16350 2700 50  0000 C CNN
-F 2 "" V 16290 2690 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 16290 2690 50  0001 C CNN
 F 3 "~" H 16250 2700 50  0001 C CNN
 	1    16250 2700
 	0    1    1    0   
@@ -4899,12 +4777,12 @@ Wire Wire Line
 	16100 2700 16000 2700
 Connection ~ 16000 2700
 $Comp
-L Device:R_US R86
+L Peavey_5150-rescue:R_US-Device R86
 U 1 1 681EB1F2
 P 16600 2150
 F 0 "R86" H 16550 2100 50  0000 R CNN
 F 1 "100K 1/4W" H 16550 2200 50  0000 R CNN
-F 2 "" V 16640 2140 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_1W" V 16640 2140 50  0001 C CNN
 F 3 "~" H 16600 2150 50  0001 C CNN
 	1    16600 2150
 	-1   0    0    1   
@@ -4944,12 +4822,12 @@ Wire Wire Line
 Wire Wire Line
 	17350 2700 16400 2700
 $Comp
-L Device:R_US R93
+L Peavey_5150-rescue:R_US-Device R93
 U 1 1 68CEE43C
 P 16500 3850
 F 0 "R93" H 16450 3800 50  0000 R CNN
 F 1 "2.2K 1/4W" H 16450 3900 50  0000 R CNN
-F 2 "" V 16540 3840 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical" V 16540 3840 50  0001 C CNN
 F 3 "~" H 16500 3850 50  0001 C CNN
 	1    16500 3850
 	-1   0    0    1   
@@ -4957,7 +4835,7 @@ $EndComp
 Wire Wire Line
 	16500 3700 16500 3600
 $Comp
-L power:Earth_Protective #PWR0129
+L Peavey_5150-rescue:Earth_Protective-power #PWR0129
 U 1 1 68E2CE24
 P 16500 4100
 F 0 "#PWR0129" H 16750 3850 50  0001 C CNN
@@ -4970,12 +4848,12 @@ $EndComp
 Wire Wire Line
 	16500 4100 16500 4000
 $Comp
-L Device:R_US R89
+L Peavey_5150-rescue:R_US-Device R89
 U 1 1 68F6D249
 P 17350 2950
 F 0 "R89" H 17300 2900 50  0000 R CNN
 F 1 "470K" H 17300 3000 50  0000 R CNN
-F 2 "" V 17390 2940 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 17390 2940 50  0001 C CNN
 F 3 "~" H 17350 2950 50  0001 C CNN
 	1    17350 2950
 	-1   0    0    1   
@@ -4989,7 +4867,7 @@ U 1 1 697255F4
 P 22450 3050
 F 0 "VR6" H 22650 3100 50  0000 L CNN
 F 1 "1M" H 22650 3000 50  0000 L CNN
-F 2 "" H 22450 3050 50  0001 C CNN
+F 2 "Peavey-EVH5150:Potentiometer_Alpha_Single_Horizontal" H 22450 3050 50  0001 C CNN
 F 3 "" H 22450 3050 50  0001 C CNN
 	1    22450 3050
 	1    0    0    -1  
@@ -4997,7 +4875,7 @@ $EndComp
 Wire Wire Line
 	22450 2900 22450 2800
 $Comp
-L power:Earth_Protective #PWR0130
+L Peavey_5150-rescue:Earth_Protective-power #PWR0130
 U 1 1 697255FF
 P 22450 3300
 F 0 "#PWR0130" H 22700 3050 50  0001 C CNN
@@ -5028,8 +4906,6 @@ Wire Wire Line
 	17350 3100 17350 3150
 Text Notes 7900 3200 0    50   ~ 0
 BRIGHT
-Text Label 6400 15300 0    50   ~ 0
-GNDPWR
 $Comp
 L Peavey_5150-rescue:G5V-2-Relays-Peavey_5150-rescue K1
 U 1 1 6AA3618E
@@ -5060,7 +4936,7 @@ U 1 1 5DCD0FB9
 P 24100 3150
 F 0 "C52" V 24250 3100 50  0000 L CNN
 F 1 ".022uF 400V" V 23950 2850 50  0000 L CNN
-F 2 "" H 24100 3150 50  0001 C CNN
+F 2 "Peavey-EVH5150:C_UNIVERSAL" H 24100 3150 50  0001 C CNN
 F 3 "" H 24100 3150 50  0001 C CNN
 	1    24100 3150
 	0    -1   -1   0   
@@ -5115,7 +4991,7 @@ Wire Wire Line
 Wire Wire Line
 	25350 18700 25350 18450
 $Comp
-L Device:R_US R56
+L Peavey_5150-rescue:R_US-Device R56
 U 1 1 5F4F7B7C
 P 25550 17750
 F 0 "R56" H 25500 17700 50  0000 R CNN
@@ -5128,7 +5004,7 @@ $EndComp
 Wire Wire Line
 	25550 18150 25550 17900
 $Comp
-L power:GND #PWR01
+L Peavey_5150-rescue:GND-power #PWR01
 U 1 1 5F7F7915
 P 25550 18700
 F 0 "#PWR01" H 25550 18450 50  0001 C CNN
@@ -5146,12 +5022,12 @@ Text Label 25550 17500 0    50   ~ 0
 ULTRA_LED
 Connection ~ 20200 3150
 $Comp
-L Device:R_US R27
+L Peavey_5150-rescue:R_US-Device R27
 U 1 1 5F020BC7
 P 20200 3800
 F 0 "R27" H 20400 3750 50  0000 R CNN
 F 1 "10K" H 20400 3850 50  0000 R CNN
-F 2 "" V 20240 3790 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 20240 3790 50  0001 C CNN
 F 3 "~" H 20200 3800 50  0001 C CNN
 	1    20200 3800
 	-1   0    0    1   
@@ -5175,12 +5051,12 @@ Wire Wire Line
 	2150 3350 2150 3900
 Connection ~ 2150 3350
 $Comp
-L Device:R_US R30
+L Peavey_5150-rescue:R_US-Device R30
 U 1 1 5F3DBB8C
 P 2650 4600
 F 0 "R30" V 2550 4600 50  0000 C CNN
 F 1 "22K 1/4W" V 2750 4600 50  0000 C CNN
-F 2 "" V 2690 4590 50  0001 C CNN
+F 2 "Peavey-EVH5150:R_Axial_0.5W" V 2690 4590 50  0001 C CNN
 F 3 "~" H 2650 4600 50  0001 C CNN
 	1    2650 4600
 	0    1    1    0   
@@ -5198,7 +5074,7 @@ U 1 1 5FA8DAFA
 P 2800 3950
 F 0 "C15" H 2700 4000 50  0000 R CNN
 F 1 ".1uF 250V" H 2700 3850 50  0000 R CNN
-F 2 "" H 2800 3950 50  0001 C CNN
+F 2 "Peavey-EVH5150:C_Rect_L7.2mm_W4.5mm_P5.00mm_Wima_Small" H 2800 3950 50  0001 C CNN
 F 3 "" H 2800 3950 50  0001 C CNN
 	1    2800 3950
 	1    0    0    -1  
@@ -5215,7 +5091,7 @@ Connection ~ 3000 4600
 Wire Wire Line
 	6300 4450 7550 4450
 $Comp
-L Device:LED D5
+L Peavey_5150-rescue:LED-Device D5
 U 1 1 5FB8C65B
 P 25550 18300
 F 0 "D5" V 25589 18182 50  0000 R CNN
@@ -5226,7 +5102,7 @@ F 3 "~" H 25550 18300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D3
+L Peavey_5150-rescue:LED-Device D3
 U 1 1 5FB8F770
 P 25350 18300
 F 0 "D3" V 25389 18182 50  0000 R CNN
@@ -5307,4 +5183,127 @@ Text Notes 23200 15250 0    20   ~ 0
 12V 12.5mA
 Text Notes 22850 15250 0    20   ~ 0
 12V 12.5mA
+Connection ~ 6400 14800
+Connection ~ 6400 13800
+Connection ~ 8700 15300
+Connection ~ 8700 14300
+Text Label 6400 15300 0    50   ~ 0
+GNDPWR
+Connection ~ 7450 14800
+Wire Wire Line
+	8000 14800 7450 14800
+Wire Wire Line
+	8000 14700 8000 14800
+Wire Wire Line
+	8000 14200 8000 14300
+Wire Wire Line
+	8000 14300 8700 14300
+Connection ~ 8000 14300
+Wire Wire Line
+	8000 14400 8000 14300
+Connection ~ 7450 13800
+Wire Wire Line
+	8000 13800 7450 13800
+Wire Wire Line
+	8000 13900 8000 13800
+Wire Wire Line
+	6400 13800 6900 13800
+$Comp
+L Peavey_5150-rescue:C_US-simple-Peavey_5150-rescue C16
+U 1 1 5DF55BD6
+P 8000 14550
+F 0 "C16" H 7900 14600 50  0000 R CNN
+F 1 "0.01uF" H 7900 14500 50  0000 R CNN
+F 2 "" H 8000 14550 50  0001 C CNN
+F 3 "" H 8000 14550 50  0001 C CNN
+	1    8000 14550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Peavey_5150-rescue:C_US-simple-Peavey_5150-rescue C12
+U 1 1 5DF27EB5
+P 8000 14050
+F 0 "C12" H 7900 14100 50  0000 R CNN
+F 1 "0.01uF" H 7900 14000 50  0000 R CNN
+F 2 "" H 8000 14050 50  0001 C CNN
+F 3 "" H 8000 14050 50  0001 C CNN
+	1    8000 14050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 14300 6900 14200
+Connection ~ 6900 14300
+Wire Wire Line
+	6150 15300 8700 15300
+Wire Wire Line
+	6900 14300 6400 14300
+Wire Wire Line
+	7450 14300 7450 14400
+Connection ~ 7450 14300
+Wire Wire Line
+	7450 14300 8000 14300
+Connection ~ 6900 14800
+Wire Wire Line
+	6900 14800 6400 14800
+Connection ~ 6900 13800
+Wire Wire Line
+	7450 14800 7450 14700
+Wire Wire Line
+	6900 14800 7450 14800
+Wire Wire Line
+	6900 14700 6900 14800
+Wire Wire Line
+	6900 14400 6900 14300
+Wire Wire Line
+	7450 14200 7450 14300
+Wire Wire Line
+	7450 13800 7450 13900
+Wire Wire Line
+	6900 13800 7450 13800
+Wire Wire Line
+	6900 13900 6900 13800
+$Comp
+L Peavey_5150-rescue:1N4007-Diode CR10
+U 1 1 5E1A0787
+P 7450 14550
+F 0 "CR10" V 7404 14629 50  0000 L CNN
+F 1 "1N4007" V 7495 14629 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 7450 14375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 7450 14550 50  0001 C CNN
+	1    7450 14550
+	0    1    1    0   
+$EndComp
+$Comp
+L Peavey_5150-rescue:1N4007-Diode CR11
+U 1 1 5E19F70A
+P 6900 14550
+F 0 "CR11" V 6946 14471 50  0000 R CNN
+F 1 "1N4007" V 6855 14471 50  0000 R CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 6900 14375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 6900 14550 50  0001 C CNN
+	1    6900 14550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Peavey_5150-rescue:1N4007-Diode CR9
+U 1 1 5E19DD5E
+P 7450 14050
+F 0 "CR9" V 7496 13971 50  0000 R CNN
+F 1 "1N4007" V 7405 13971 50  0000 R CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 7450 13875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 7450 14050 50  0001 C CNN
+	1    7450 14050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Peavey_5150-rescue:1N4007-Diode CR8
+U 1 1 5E1994C4
+P 6900 14050
+F 0 "CR8" V 6854 14129 50  0000 L CNN
+F 1 "1N4007" V 6945 14129 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 6900 13875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 6900 14050 50  0001 C CNN
+	1    6900 14050
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
