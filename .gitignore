@@ -11,7 +11,9 @@ _autosave-*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
+*-cache.lib
 fp-info-cache
+sym-lib-table
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -19,7 +21,3 @@ fp-info-cache
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
-
-# Symbol cache
-fp-info-cache
-sym-lib-table
