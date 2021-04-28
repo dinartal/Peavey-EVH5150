@@ -1,3 +1,4 @@
 [submodule "KiCadCommonLib"]
 	path = KiCadCommonLib
 	url = https://github.com/AlexeyGalckin/KiCadCommonLib.git
+	branch = master
