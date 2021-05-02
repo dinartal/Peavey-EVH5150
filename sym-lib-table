@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name KiCadCommon)(type Legacy)(uri ${KIPRJMOD}/KiCadCommonLib/KiCadCommon.lib)(options "")(descr ""))
-)
